@@ -1,0 +1,50 @@
+{
+  "id": "2v2-plus-1-plus-1-game-2-large-goals",
+  "title": "2v2+1+1... Game 2 Large Goals",
+  "source": {
+    "type": "pdf",
+    "file": "archive/sample-april-20-23/2v2+1+1... Game 2 Large Goals.pdf",
+    "originalFilename": "2v2+1+1... Game 2 Large Goals.pdf",
+    "firstSeenWeek": "sample-april-20-23"
+  },
+  "diagram": {
+    "path": "data/diagrams/2v2-plus-1-plus-1-game-2-large-goals.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 276865,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "30X30 yard area with two large goals. The coach has a supply of balls.",
+  "instructions": [
+    "The coach passes the ball to the center, toward one team.",
+    "The attacking team overlaps: the far player takes the ball and dribbles diagonally toward the coach.",
+    "The player near the coach overlaps to the far side.",
+    "THE TEAM IN POSSESSION CAN HAVE ONE EXTRA PLAYER, so they can turn and pass a teammate in. That makes it 3v2.",
+    "If the defenders win the ball they can pass two players in, making it 4v3. Etc."
+  ],
+  "coachingPoints": [
+    "Dribble and pass with the correct technique.",
+    "Don't wait for the defender to close you down - pass early.",
+    "Get a numbers advantage by passing someone in early.",
+    "Priority: 1. shoot; 2. pass; 3. dribble.",
+    "Create width and depth when attacking."
+  ],
+  "derived": {
+    "equipment": [
+      "2 large goals",
+      "supply of balls",
+      "cones"
+    ],
+    "ageNotes": null,
+    "areaSize": "30x30 yards",
+    "formation": "30x30 grid, two large goals, coach serves from the side",
+    "tags": [
+      "game",
+      "small-sided",
+      "overlap",
+      "numbers-up",
+      "shooting"
+    ]
+  }
+}

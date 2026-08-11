@@ -1,0 +1,60 @@
+{
+  "id": "shooting-game-2-1v1-2v1-2v2-variations",
+  "title": "Shooting Game 2 - 1v1, 2v1, 2v2 Variations",
+  "source": {
+    "type": "pdf",
+    "file": "archive/sample-april-20-23/Shooting Game 2 - 1v1^J 2v1^J 2v2 Variations.pdf",
+    "originalFilename": "Shooting Game 2 - 1v1^J 2v1^J 2v2 Variations.pdf",
+    "firstSeenWeek": "sample-april-20-23"
+  },
+  "diagram": {
+    "path": "data/diagrams/shooting-game-2-1v1-2v1-2v2-variations.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 301153,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "20x20 yard area. Two teams. Defending team at points A and C, attacking team at points B and D. A and C players each with a ball. One goalkeeper (use team goalies).",
+  "instructions": [
+    "A passes to B. A attacks, B defends.",
+    "B must close down the ball quickly to deny the shot, delay and shoulder charge as needed.",
+    "A shoots to score. B scores by passing to the coach. Keep score.",
+    "As soon as that play is over C passes to D.",
+    "Rotation: A goes to C, C goes to A. B goes to D, D goes to B.",
+    "After a few minutes teams switch positions.",
+    "Variation 1: 1v1. Variation 2: 2V1. Variation 3: 2V2."
+  ],
+  "coachingPoints": [
+    "Pass with pace on the ground.",
+    "Defender must close down the ball quickly, but don't dive in!",
+    "Make the defender commit to you, take a fast touch to the side, and shoot!",
+    "Attacker must dribble toward the left goal post, then take a touch to the right side to shoot with right foot.",
+    "If shooting with the left foot dribble to the right goal post, then take a touch to the left and shoot.",
+    "Dribbling to the goal post makes the defender and the goalkeeper commit there and creates space on the opposite side so you can shoot.",
+    "2v1: dribble to one goal post, and 2nd attacker overlaps to the opposide side. Do enforce the offside rule.",
+    "2v2: Try to turn it into a 2v1 situation by setting up a give-&-go or overlap, or through pass."
+  ],
+  "derived": {
+    "equipment": [
+      "1 goal",
+      "cones for 4 stations",
+      "balls at A and C"
+    ],
+    "ageNotes": null,
+    "areaSize": "20x20 yards",
+    "variations": [
+      "1v1",
+      "2v1",
+      "2v2"
+    ],
+    "formation": "20x20 grid, four corner stations A-D",
+    "tags": [
+      "shooting",
+      "game",
+      "1v1",
+      "defending",
+      "small-sided"
+    ]
+  }
+}

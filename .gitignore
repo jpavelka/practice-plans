@@ -1,0 +1,13 @@
+# raw input staged for extraction; moved to archive/ once processed
+inbox/*
+!inbox/.gitkeep
+
+# web app (not yet built)
+node_modules/
+dist/
+.cache/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.swp
