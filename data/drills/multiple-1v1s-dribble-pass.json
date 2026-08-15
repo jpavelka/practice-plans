@@ -1,0 +1,33 @@
+{
+  "id": "multiple-1v1s-dribble-pass",
+  "title": "Multiple 1v1s - Dribble-Pass",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/Multiple 1v1s With Multiple Targets.pdf",
+    "originalFilename": "Multiple 1v1s With Multiple Targets.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/multiple-1v1s-dribble-pass.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 26539,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "20x20 or 20x30 area. Two teams. Target players for each team on opposite sides, multiple 1v1 pairs inside.",
+  "instructions": [
+    "Players keep the ball away from the defender, and pass to the target player outside. The target player and the passer switch positions and the defender keeps following the same ball."
+  ],
+  "coachingPoints": [
+    "Player with the ball: Never face the defender - turn and dribble out. Pass early. Accurate passes to the feet. Call out the target's name to make sure she is ready.",
+    "Target: Good first touch into open space. Accelerate away and pass to the target player on the opposite side. Pass from a distance, so you don't bring the defender close to the target."
+  ],
+  "derived": {
+    "equipment": [],
+    "ageNotes": null,
+    "areaSize": "20x20 or 20x30 yards",
+    "formation": "1v1",
+    "tags": ["dribbling", "1v1", "passing"]
+  }
+}

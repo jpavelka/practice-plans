@@ -1,8 +1,0 @@
-I coach a youth soccer team. Every week, the club director sends an email with suggested drills/exercises for that week's practices. The body of the email describes the goal of that week's sessions and which drills to do each day. Attached are pdfs describing the drills in more detial. These are separate, usually 1-page documents per drill.
-
-I want to set up a process where I can use Claude to read the emails/attachments and return the relevant details in some structured format (e.g. JSON). The structured data would ultimately be passed to some web app that displays the information in some way that's more convenient that flipping through emails in an attachment.
-
-Would this be possible? What do you imagine the flow would be? How can Claude read my emails (gmail account)? Can we create a "skill" for Claude code to make the steps repeatable? Help me brainstorm the correct solution.
-
-
-

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Practice Plan</title>
+<meta name="description" content="Weekly soccer practice plan and drill library.">
+<meta name="theme-color" content="#166534" id="theme-color-meta">
+<link rel="stylesheet" href="assets/app.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>⚽</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1><a href="#/">Practice Plans</a></h1>
+    <details id="menu" class="menu">
+      <summary aria-label="Menu"><span aria-hidden="true">&#9776;</span></summary>
+      <nav class="menu-panel" aria-label="Sections">
+        <a href="#/" data-tab="plan">Plan</a>
+        <a href="#/library" data-tab="library">Drills</a>
+        <a href="#/notes" data-tab="notes">Notes</a>
+        <div class="theme-switch" role="group" aria-label="Theme">
+          <button type="button" data-theme="light">Light</button>
+          <button type="button" data-theme="dark">Dark</button>
+          <button type="button" data-theme="system">System</button>
+        </div>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="app" aria-live="polite">
+  <p class="loading">Loading…</p>
+</main>
+
+<!-- prev/next within a session; only shown for a drill opened from a plan -->
+<footer id="pager" class="pager" hidden aria-label="Drills in this session"></footer>
+
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img alt="">
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "id": "dribbling-gauntlet",
+  "title": "Dribbling Gauntlet",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/Dribbling Gauntlet.pdf",
+    "originalFilename": "Dribbling Gauntlet.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/dribbling-gauntlet.png",
+    "width": 561,
+    "height": 421,
+    "bytes": 119844,
+    "extractedFrom": "page-1 FlateDecode /Image XObject (raw pixels, re-packed as PNG)",
+    "needsDownscale": false
+  },
+  "setup": "10X36 yard area, divided into three 10X12 sections. Three defenders, and a line of attackers.",
+  "instructions": [
+    "One attacker dribbles through and scores by dribbling past the last end line. On the way the attacker must beat each defender.",
+    "Defenders must start at the back line of their respective squares. Defenders are not allowed outside their respective squares. Defenders score by winning the ball and stopping the ball dead on the front line of their square."
+  ],
+  "coachingPoints": [
+    "Dribble with shoelaces to take on defenders. Make your move early, out of the defender's reach.",
+    "Change direction, and accelerate away.",
+    "Attack the spaces behind the defender with speed.",
+    "Control the ball again when you enter the next square."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "10x36 yards, divided into three 10x12 sections",
+    "formation": "1v1 (sequential, three defenders)",
+    "tags": ["dribbling", "1v1"]
+  }
+}

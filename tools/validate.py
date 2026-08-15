@@ -11,6 +11,7 @@ Exit code 0 = clean, 1 = errors found. Warnings alone do not fail the run.
 import json
 import sys
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -94,18 +95,19 @@ for f in sorted(DRILLS.glob("*.json")):
         elif Path(dia["path"]).stem != d["id"]:
             err(f"{rel}: diagram filename must match drill id")
 
-# orphan diagrams
-for img in sorted(DIAGRAMS.glob("*.jpg")):
+# orphan diagrams (.jpg for a DCTDecode source, .png for a rendered fallback)
+for img in sorted(list(DIAGRAMS.glob("*.jpg")) + list(DIAGRAMS.glob("*.png"))):
     if img.stem not in drills:
         err(f"data/diagrams/{img.name}: orphan, no drill with that id")
 
 # ---------- weeks ----------
-week_count = 0
+weeks_on_disk: dict[str, dict] = {}
 for f in sorted(WEEKS.glob("*.json")):
     w = load(f)
     if w is None:
         continue
-    week_count += 1
+    if w.get("id"):
+        weeks_on_disk[w["id"]] = w
     rel = f.relative_to(ROOT)
 
     for field in ("id", "sessions", "sourceEmail", "extractionFlags"):
@@ -131,6 +133,17 @@ for f in sorted(WEEKS.glob("*.json")):
             seen_labels.add(s["label"])
         if not s.get("days"):
             err(f"{where}: 'days' is empty")
+        if not s.get("date"):
+            err(f"{where}: missing 'date' - the home screen needs it to list this practice")
+        else:
+            try:
+                d = date.fromisoformat(s["date"])
+                weekday = d.strftime("%A")
+                if s.get("days") and weekday != s["days"][0]:
+                    warn(f"{where}: date {s['date']} is a {weekday}, "
+                         f"but days[0] is '{s['days'][0]}' - verify by hand")
+            except ValueError:
+                err(f"{where}: 'date' is not a valid YYYY-MM-DD date - {s['date']!r}")
         if not s.get("items"):
             err(f"{where}: session has no items")
 
@@ -157,13 +170,27 @@ for f in sorted(WEEKS.glob("*.json")):
     for u in w.get("unmatchedReferences") or []:
         warn(f"{rel}: unmatched reference in email - {u!r}")
 
+# ---------- generated bundle is in sync ----------
+# data/site.json is what the web app actually fetches. It is generated, so it can
+# silently drift from data/{drills,weeks} -- edit a drill, forget to rebuild, and
+# the site keeps serving the old text with no visible error. Catch it here.
+site = ROOT / "data/site.json"
+if not site.exists():
+    err("data/site.json missing — run: python3 tools/build_site_data.py")
+else:
+    bundle = load(site)
+    if bundle is not None:
+        bundled_weeks = {w.get("id"): w for w in bundle.get("weeks") or []}
+        if bundle.get("drills") != drills or bundled_weeks != weeks_on_disk:
+            err("data/site.json is stale — run: python3 tools/build_site_data.py")
+
 # ---------- report ----------
 for m in warnings:
     print(f"WARN  {m}")
 for m in errors:
     print(f"ERROR {m}", file=sys.stderr)
 
-print(f"\n{len(drills)} drills, {week_count} week(s), "
-      f"{len(list(DIAGRAMS.glob('*.jpg')))} diagrams")
+diagram_count = len(list(DIAGRAMS.glob("*.jpg"))) + len(list(DIAGRAMS.glob("*.png")))
+print(f"\n{len(drills)} drills, {len(weeks_on_disk)} week(s), {diagram_count} diagrams")
 print(f"{len(errors)} error(s), {len(warnings)} warning(s)")
 sys.exit(1 if errors else 0)

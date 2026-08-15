@@ -1,0 +1,152 @@
+{
+  "id": "2026-08-17",
+  "weekOf": "2026-08-17",
+  "weekOfRaw": "March 23-26",
+  "theme": "This week the focus is on dribbling, and specifically escaping the pressure from a defender.",
+  "goal": "We will focus on teaching three skill moves. By the end of the week all players must know how to do them.",
+  "seasonFocus": "We start with basic moves to beat a defender. By the end of the season we want every player to master every one of these skill moves.",
+  "sourceEmail": {
+    "file": "archive/2026-08-17/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 7
+  },
+  "sessions": [
+    {
+      "label": "Monday/Tuesday",
+      "days": ["Monday", "Tuesday"],
+      "date": "2026-08-17",
+      "items": [
+        {
+          "drillId": "basic-ball-skills",
+          "asWritten": "Basic Ball Skills (see video links below) Focus on three moves: side step, scissors, stepovers",
+          "note": "Focus on three moves: side step, scissors, stepovers"
+        },
+        {
+          "drillId": "dribbling-multiple-gates",
+          "asWritten": "Dribbling – Multiple Gates",
+          "note": null
+        },
+        {
+          "drillId": "dribbling-four-goals",
+          "asWritten": "Dribbling – Four Goals",
+          "note": null
+        },
+        {
+          "drillId": "2v2-game",
+          "asWritten": "2V2 Game (pair up against another full team or split your team into two)",
+          "note": "pair up against another full team or split your team into two"
+        }
+      ]
+    },
+    {
+      "label": "Wednesday/Thursday",
+      "days": ["Wednesday", "Thursday"],
+      "date": "2026-08-19",
+      "items": [
+        {
+          "drillId": "basic-ball-skills",
+          "asWritten": "Basic Ball Skills (see video links below) Focus on three moves: side step, scissors, stepovers",
+          "note": "Focus on three moves: side step, scissors, stepovers"
+        },
+        {
+          "drillId": "multiple-1v1s-dribble-pass",
+          "asWritten": "Multiple 1v1s With Multiple Targets",
+          "note": null
+        },
+        {
+          "drillId": "possession-knockout-game",
+          "asWritten": "Possession Knockout Game",
+          "note": null
+        },
+        {
+          "drillId": "2v2-game",
+          "asWritten": "2V2 Game (pair up against another full team or split your team in to two)",
+          "note": "pair up against another full team or split your team in to two"
+        }
+      ]
+    }
+  ],
+  "logistics": [
+    "Watch the short videos at the bottom of the page so you know how to demonstrate. Each video is just a few seconds.",
+    "I strongly recommend that you print the exercises for each day on paper, so it is easier for you to refer to it on the field.",
+    "STAY WITH YOUR PLAYERS UNTIL ALL OF THEM ARE PICKED UP. Do not leave any players unattended at the fields. Coaches are responsible for all players under their care, even if you are coaching players from another team.",
+    "Study the practice sessions in advance and know the instructions and coaching points. You can refer to it during practices to make sure you are",
+    "As always, adjust the practice variables to make the exercise work for your players, based on their level of ability, age, size, numbers, etc. See the attached Manipulating Practice Variables document (Tom Turner, OYSAN Director of Coaching and Player Development), and study it."
+  ],
+  "coachingNotes": [
+    {
+      "title": "Demonstration-Observation-Correction Cycle",
+      "scope": "evergreen",
+      "points": [
+        "You must demonstrate each skill move to your players, and then have them repeat them 20 times.",
+        "Do not talk while demonstrating. Just do the skill move yourself at game speed, with no talking. Just do the move like you want them to do it in a game situation.",
+        "Have the players repeat it 20 times and observe them. Players sit down when done.",
+        "Demonstrate again – do it at speed. Then break it down into its two or three component parts. Here you can explain each part, but be brief.",
+        "Have the players repeat the skill move 20 times and sit down when done.",
+        "So the process is as follows: demonstrate, observe the players, demonstrate again to make corrections, observe the players, and repeat this process until the players' performance improves. Not all players will master every move on the first session. It will take several sessions.",
+        "Repeat this for each skill move.",
+        "Work on five or six skill moves each practice session, and make sure the players are using those specific moves in the exercise progression for that day.",
+        "Our objective is for all players, regardless of their athletic ability, to master every one of these skill moves."
+      ]
+    },
+    {
+      "title": "Session Model",
+      "scope": "evergreen",
+      "points": [
+        "We are using a progression model for our practice sessions. We will not use the Play-Practice-Play session model, so don't use that. You can still apply the guided discovery technique within the progression model."
+      ]
+    },
+    {
+      "title": "Cycle of Possession",
+      "scope": "week",
+      "points": [
+        "Most of these are possession games, and you must focus your coaching points on dribbling to escape the pressure from a defender, so you create enough time and space to make a safe pass or to get a shot.",
+        "You should all start introducing your players to the four stages of the cycle of possession (1 - pop away from the defender to create time and space, 2- good first touch when you receive the ball, 3 - escape the pressure to create time and space to pass, 4 - accurate pass to the feet, and repeat the entire sequence)."
+      ]
+    },
+    {
+      "title": "Technique Coaching Points",
+      "scope": "evergreen",
+      "points": [
+        "Players must use the correct technique when receiving or dribbling: take small soft touches. Quick feet and small steps so you can react quickly. Dribble side to side, not forward into pressure. Always be aware what spaces the defenders are taking away and what spaces they are giving you. Take what they give you. Shield the ball when necessary.",
+        "Players must use the correct technique when passing (contact the ball with the inside of the heel, push through the ball and swing the kicking leg up – do not jab at the ball, or jab your kicking foot into the ground).",
+        "Players must use the correct technique when receiving the ball – small touch so you can play it immediately. Use the correct surface of the foot – inside of the heel, or sole of the foot if you are in a tight space."
+      ]
+    }
+  ],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "weekOf",
+      "message": "Email text said 'March 23-26' with no year -- recycled boilerplate from a prior season, per the mismatch with the August context this arrived in. Jeff confirmed on 2026-08-15 that the actual practice dates are the week of August 17, 2026 (Monday/Tuesday session Aug 17-18, Wednesday/Thursday session Aug 19-20). weekOf set from that confirmation; weekOfRaw kept verbatim from the source email."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[1].items[1].drillId",
+      "message": "Email line 'Multiple 1v1s With Multiple Targets' was matched to drill 'multiple-1v1s-dribble-pass', whose PDF title is 'Multiple 1v1s - Dribble-Pass' (filename: 'Multiple 1v1s With Multiple Targets.pdf'). Only 'Multiple 1v1s' is common between the email text and the PDF title -- not a clean prefix match. It's the only 1v1-with-targets PDF attached, so it's the best candidate, but verify by hand."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "'Dribbling Gauntlet.pdf' was attached but not listed in either day's exercises. Created drill record 'dribbling-gauntlet' anyway per convention; it isn't referenced by any session this week."
+    },
+    {
+      "level": "warn",
+      "field": "attachments",
+      "message": "'Manipulating Practice Variables.pdf' (Tom Turner, OYSAN, 8-page article on coaching philosophy) has no setup/instructions/coaching-points structure -- it isn't a drill. No drill record was created for it. The PDF is archived for provenance and referenced in logistics instead."
+    },
+    {
+      "level": "info",
+      "field": "sessions[*].date",
+      "message": "Jeff confirmed on 2026-08-15 that this team's practices are always Monday and Wednesday -- the email's 'Monday/Tuesday' / 'Wednesday/Thursday' headers are club-wide slot names covering other teams' schedules too, and label/days are kept verbatim from the email as before. Added session.date using the Monday-of-slot convention: sessions[0].date = weekOf itself (2026-08-17, Monday), sessions[1].date = weekOf + 2 days (2026-08-19, Wednesday)."
+    },
+    {
+      "level": "info",
+      "field": "diagram",
+      "message": "5 of 7 PDFs (Dribbling - Multiple Gates, Dribbling - Four Goals, 2V2 Game, Possession Knockout Game, Dribbling Gauntlet) had no DCTDecode/JPEG image on page 1. Two different non-JPEG storage shapes: Dribbling Gauntlet uses a plain FlateDecode /Image XObject (raw pixels); the other four draw the diagram directly in the content stream as a mosaic of ~600 tiny per-scanline inline images (BI/ID/EI) positioned with cm. extract_diagrams.py now handles both -- decoding the XObject directly, or replaying q/cm/Q to composite the mosaic -- and writes PNGs (not JPEGs, since there's no JPEG source to preserve) for all five. Verified visually against the original PDF pages."
+    }
+  ]
+}

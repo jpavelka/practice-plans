@@ -1,0 +1,358 @@
+/* Practice Plan -- read on a phone, outdoors, at arm's length.
+   Priorities: high contrast, large type, thumb-sized targets. */
+
+:root {
+  --bg:        #f6f7f5;
+  --surface:   #ffffff;
+  --ink:       #14181c;
+  --ink-soft:  #4d5761;
+  --line:      #dfe3e0;
+  --accent:    #166534;
+  --accent-ink:#ffffff;
+  --radius: 12px;
+  --tap: 48px;
+  --wrap: 46rem;
+}
+
+/* Three states: OS default (media query, no explicit choice), and an explicit
+   light/dark pick via [data-theme] set by the theme switch in the menu. The
+   :not([data-theme="light"]) guard lets an explicit light choice override the
+   OS's dark preference; [data-theme="dark"] is unguarded so it always wins. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:        #0b1120;
+    --surface:   #151d2c;
+    --ink:       #eef2f6;
+    --ink-soft:  #9aa7b6;
+    --line:      #27334a;
+    --accent:    #4ade80;
+    --accent-ink:#06210f;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:        #0b1120;
+  --surface:   #151d2c;
+  --ink:       #eef2f6;
+  --ink-soft:  #9aa7b6;
+  --line:      #27334a;
+  --accent:    #4ade80;
+  --accent-ink:#06210f;
+}
+
+* { box-sizing: border-box; }
+
+/* The UA rule for [hidden] is `display:none` at element specificity, so any
+   class that sets `display` beats it and the element stays visible. Restate it
+   with !important so `hidden` always wins -- .lightbox (display:grid) was
+   painting a black full-screen overlay on load before this existed. */
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---------- chrome ---------- */
+
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  background: var(--accent); color: var(--accent-ink);
+  padding-top: env(safe-area-inset-top);
+}
+.topbar-inner {
+  display: flex; align-items: center; gap: .25rem;
+  max-width: var(--wrap); margin: 0 auto;
+  padding: .6rem .9rem;
+}
+.topbar h1 {
+  font-size: 1.05rem; font-weight: 600; margin: 0;
+  flex: 1; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.topbar h1 a {
+  color: inherit; text-decoration: none;
+  /* padding + matching negative margin: a thumb-sized hit area without
+     changing where the wordmark actually sits */
+  display: inline-block;
+  padding: .45rem .2rem;
+  margin: -.45rem -.2rem;
+  border-radius: 6px;
+}
+.topbar h1 a:active { opacity: .7; }
+.topbar h1 a:focus-visible {
+  outline: 2px solid var(--accent-ink); outline-offset: -2px;
+}
+
+main {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 1rem .9rem 2rem;
+}
+/* only reserve space for the footer on the views that actually show one */
+body.has-pager main {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+}
+
+/* ---------- section menu ---------- */
+
+.menu { position: relative; flex: none; margin-left: auto; }
+.menu > summary {
+  list-style: none;
+  width: var(--tap); height: var(--tap);
+  margin: calc((var(--tap) - 2rem) / -2) 0;
+  display: grid; place-items: center;
+  font-size: 1.4rem; line-height: 1;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.menu > summary::-webkit-details-marker { display: none; }
+.menu > summary::marker { content: ""; }
+.menu > summary:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: -4px; }
+
+.menu-panel {
+  position: absolute; right: 0; top: calc(100% + .35rem);
+  min-width: 11rem;
+  display: flex; flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .22);
+  overflow: hidden;
+}
+.menu-panel a {
+  min-height: var(--tap);
+  display: flex; align-items: center;
+  padding: 0 1.1rem;
+  color: var(--ink); text-decoration: none;
+  font-size: 1rem; font-weight: 500;
+}
+.menu-panel a + a { border-top: 1px solid var(--line); }
+.menu-panel a:active { background: var(--bg); }
+.menu-panel a[aria-current="page"] { color: var(--accent); font-weight: 700; }
+
+.theme-switch {
+  display: flex;
+  border-top: 1px solid var(--line);
+}
+.theme-switch button {
+  flex: 1;
+  min-height: var(--tap);
+  padding: 0 .3rem;
+  font: inherit; font-size: .82rem; font-weight: 600;
+  color: var(--ink-soft);
+  background: var(--surface);
+  border: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.theme-switch button + button { border-left: 1px solid var(--line); }
+.theme-switch button:active { background: var(--bg); }
+.theme-switch button[aria-pressed="true"] { color: var(--accent); font-weight: 700; }
+.theme-switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+/* ---------- shared ---------- */
+
+.loading { color: var(--ink-soft); }
+
+.eyebrow {
+  font-size: .78rem; font-weight: 700; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-soft);
+  margin: 0 0 .3rem;
+}
+h2 { font-size: 1.4rem; line-height: 1.25; margin: 0 0 .2rem; }
+h3 { font-size: 1.05rem; margin: 1.5rem 0 .5rem; }
+
+.meta { color: var(--ink-soft); font-size: .92rem; margin: 0 0 1.1rem; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: .9rem 1rem;
+  margin-bottom: .9rem;
+}
+
+/* ---------- drill list ---------- */
+
+ol.drills { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+ol.drills > li { margin-bottom: .6rem; }
+
+.drill-link {
+  display: flex; align-items: center; gap: .8rem;
+  min-height: var(--tap);
+  padding: .8rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: inherit; text-decoration: none;
+}
+.drill-link:active { background: var(--bg); }
+.step {
+  flex: none;
+  width: 2rem; height: 2rem;
+  display: grid; place-items: center;
+  background: var(--accent); color: var(--accent-ink);
+  border-radius: 50%;
+  font-size: .95rem; font-weight: 700;
+}
+.drill-link .body { flex: 1; min-width: 0; }
+.drill-link .name { font-weight: 600; }
+.drill-link .note {
+  display: block;
+  color: var(--ink-soft); font-size: .88rem; margin-top: .15rem;
+}
+.chev { flex: none; color: var(--ink-soft); font-size: 1.5rem; line-height: 1; }
+
+.badge {
+  display: inline-block;
+  font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: .05rem .5rem; margin-left: .4rem;
+  vertical-align: 1px;
+}
+
+/* ---------- drill detail ---------- */
+
+/* Crumb + title pinned below the header. --topbar-h is measured in JS because
+   the header's height depends on the safe-area inset; the fallback only applies
+   for the instant before the first measurement lands. */
+.drill-head {
+  position: sticky;
+  top: var(--topbar-h, 3.4rem);
+  z-index: 10;
+  background: var(--bg);
+  /* bleed through main's horizontal padding so scrolled content is fully
+     covered edge to edge rather than peeking past the sides */
+  margin: -1rem -.9rem .9rem;
+  padding: .85rem .9rem .55rem;
+  border-bottom: 1px solid var(--line);
+}
+.drill-head h2 { margin: 0; }
+.drill-head .crumb { margin-bottom: .35rem; }
+
+.diagram {
+  display: block; width: 100%; height: auto;
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  margin-bottom: 1rem;
+  cursor: zoom-in;
+}
+.no-diagram {
+  color: var(--ink-soft); font-size: .9rem; font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.prose { margin: 0; }
+.prose li { margin-bottom: .5rem; }
+ol.steps { padding-left: 1.3rem; margin: 0; }
+ul.points { padding-left: 1.2rem; margin: 0; }
+
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: 1.2rem; }
+.tag {
+  font-size: .8rem; color: var(--ink-soft);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: .1rem .55rem;
+}
+
+.usedin { font-size: .9rem; color: var(--ink-soft); margin-top: 1.2rem; }
+.usedin a { color: inherit; }
+
+/* which week/day this drill was opened from, + position in that session */
+.crumb {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: .75rem;
+  margin-bottom: .5rem;
+}
+.crumb a {
+  color: inherit; text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.crumb .pos { flex: none; opacity: .85; }
+
+/* previous / next within the same session -- sticky footer, drill views only */
+/* The footer bar itself runs full-bleed, but its content (the two buttons)
+   matches main's width -- same rail the page content sits in, not stretched
+   corner to corner on wide screens. */
+.pager {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.pager-inner {
+  max-width: var(--wrap); margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px;                      /* the gap shows --line through as a divider */
+  background: var(--line);
+}
+.pager-slot {
+  display: flex; flex-direction: column; justify-content: center; gap: .1rem;
+  min-height: var(--tap);
+  padding: .5rem .9rem;
+  background: var(--surface);
+  color: inherit; text-decoration: none;
+  overflow: hidden;
+}
+a.pager-slot:active { background: var(--bg); }
+/* no neighbour this side: keep the panel so "Next" stays under the right thumb */
+span.pager-slot { pointer-events: none; }
+.pager-next { text-align: right; }
+.pager-dir {
+  font-size: .74rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--accent);
+}
+.pager-name {
+  font-size: .88rem; font-weight: 600; line-height: 1.25;
+  /* one line only: the footer must not grow and eat the diagram */
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* ---------- library ---------- */
+
+.search {
+  width: 100%;
+  min-height: var(--tap);
+  padding: .6rem .9rem;
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+.search:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.empty { color: var(--ink-soft); }
+
+/* ---------- lightbox ---------- */
+
+.lightbox {
+  position: fixed; inset: 0; z-index: 50;
+  background: #000;
+  display: grid; place-items: center;
+  overflow: auto;
+}
+.lightbox img { max-width: none; width: 180%; height: auto; }
+.lightbox-close {
+  position: fixed; top: env(safe-area-inset-top); right: 0;
+  width: 3.2rem; height: 3.2rem;
+  font-size: 2rem; line-height: 1;
+  color: #fff; background: rgba(0,0,0,.55); border: 0;
+  cursor: pointer;
+}
+
+/* ---------- print ---------- */
+
+@media print {
+  .topbar, .menu, .chev, .pager { display: none !important; }
+  main { padding: 0; max-width: none; }
+  .card, .drill-link { break-inside: avoid; border-color: #999; }
+  a { text-decoration: none; color: #000; }
+}

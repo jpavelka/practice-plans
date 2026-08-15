@@ -1,0 +1,35 @@
+{
+  "id": "dribbling-four-goals",
+  "title": "Dribbling - Four Goals",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/Dribbling - Four Goals.pdf",
+    "originalFilename": "Dribbling - Four Goals.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/dribbling-four-goals.png",
+    "width": 1683,
+    "height": 1263,
+    "bytes": 152425,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "20X20 yard area, four small goals.",
+  "instructions": [
+    "The coach plays a diagonal ball toward the far goal. The attacker runs behind the far goal. The defender runs behind the near goal. Switch roles after all players have gone a turn.",
+    "1: Score by dribbling through.",
+    "2: Score by shooting."
+  ],
+  "coachingPoints": [
+    "Attackers: Get to the ball first. Take a first touch toward one of the goals to make the defender commit to that goal. Then quickly turn and attack the opposite goal.",
+    "Defenders: Get to the ball as quickly as possible to deny the shot. Don't stab at it, or dive in. Instead, delay the attack by staying on your toes and shuffling to keep the ball in front of you. Be patient and wait for the attacker to make a mistake. If you win the ball counterattack quickly."
+  ],
+  "derived": {
+    "equipment": ["four small goals"],
+    "ageNotes": null,
+    "areaSize": "20x20 yards",
+    "formation": "1v1",
+    "tags": ["dribbling", "1v1", "shooting"]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dribbling-multiple-gates",
+  "title": "Dribbling - Multiple Gates",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/Dribbling - Multiple Gates.pdf",
+    "originalFilename": "Dribbling - Multiple Gates.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/dribbling-multiple-gates.png",
+    "width": 1683,
+    "height": 1263,
+    "bytes": 197211,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "30X40 area (adjust to your # of players and age). Multiple \"gates\" made with cones.",
+  "instructions": [
+    "Play multiple 1V1 battles. Dribbler scores by dribbling through gates. Defender must deny the dribble through the gates, but cannot steal the ball. Play 1 or 2 minutes, and switch roles. Keep score.",
+    "Variation 2: Defenders can win the ball. Keep score."
+  ],
+  "coachingPoints": [
+    "Take soft short touches, keeping the ball \"tied\" to your feet. Quick choppy steps, with constant changes of direction.",
+    "The objective is to be unpredictable and to move the ball before the defender can react.",
+    "Make the defender commit to defend one gate, and immediately change directions to another gate.",
+    "Use every surface of both feet."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "30x40 yards (adjust to # of players and age)",
+    "formation": "1v1",
+    "tags": ["dribbling", "1v1"]
+  }
+}

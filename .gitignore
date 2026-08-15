@@ -7,7 +7,16 @@ node_modules/
 dist/
 .cache/
 
+# python
+__pycache__/
+*.pyc
+
 # os / editor
 .DS_Store
 Thumbs.db
 *.swp
+
+# per-user Claude Code overrides, not meant to be shared
+.claude/settings.local.json
+
+todo.txt

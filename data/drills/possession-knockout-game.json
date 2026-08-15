@@ -1,0 +1,33 @@
+{
+  "id": "possession-knockout-game",
+  "title": "Possession Knockout Game",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/Possession Knockout Game.pdf",
+    "originalFilename": "Possession Knockout Game.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/possession-knockout-game.png",
+    "width": 1950,
+    "height": 1461,
+    "bytes": 269636,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "6 to 10 vs 2 in a 20X30 area",
+  "instructions": [
+    "Team in possession has two or three balls. Two \"sharks\" go after the ball. You can stipulate that the sharks cannot double team."
+  ],
+  "coachingPoints": [
+    "Escape the pressure from the defender quickly. Pass early. Accurate passes to the feet.",
+    "Players off the ball must create time and space."
+  ],
+  "derived": {
+    "equipment": ["multiple balls"],
+    "ageNotes": null,
+    "areaSize": "20x30 yards",
+    "formation": "6-10v2",
+    "tags": ["possession"]
+  }
+}

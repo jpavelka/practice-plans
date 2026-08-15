@@ -24,8 +24,12 @@ If `inbox/` is empty or missing `body.txt`, stop and say so — don't hunt for f
 data/drills/<drill-id>.json     one per drill, reused across weeks
 data/weeks/<week-id>.json       the plan; references drills by id
 data/diagrams/<drill-id>.jpg    field diagram carved out of the PDF
+data/site.json                  generated bundle the web app fetches
 archive/<week-id>/              raw body.txt + PDFs, moved from inbox/
 ```
+
+`data/site.json` is **generated** — never hand-edit it. The per-drill and per-week
+files are the source of truth.
 
 ## Steps
 
@@ -60,10 +64,14 @@ archive/<week-id>/              raw body.txt + PDFs, moved from inbox/
 6. **Move `inbox/*` to `archive/<week-id>/`** and update each new drill's
    `source.file` to the archived path.
 
-7. **Run `python3 tools/validate.py`.** Fix anything it reports. Do not finish on a
-   non-zero exit.
+7. **Rebuild the web app's data bundle:** `python3 tools/build_site_data.py`.
+   The site fetches `data/site.json`, not the per-drill files — skip this and the
+   new week simply won't appear.
 
-8. **Report** what you extracted: new drills vs reused, any unmatched references, and
+8. **Run `python3 tools/validate.py`.** Fix anything it reports. Do not finish on a
+   non-zero exit. (It also fails if you forgot step 7.)
+
+9. **Report** what you extracted: new drills vs reused, any unmatched references, and
    every `extractionFlags` entry you raised.
 
 ## Drill records
@@ -113,6 +121,7 @@ can't tell, use `null`.
   "sourceEmail": { "file": "archive/<id>/body.txt", "from": "Mauro",
                    "subject": null, "receivedAt": null, "attachmentCount": 7 },
   "sessions": [{ "label": "Monday/Tuesday", "days": ["Monday", "Tuesday"],
+                 "date": "2026-09-15",
                  "items": [{ "drillId": "...", "asWritten": "...", "note": null }] }],
   "logistics": ["..."],
   "coachingNotes": [{ "title": "...", "scope": "week|evergreen", "points": ["..."] }],
@@ -121,8 +130,17 @@ can't tell, use `null`.
 }
 ```
 
-**Sessions are usually day-*pairs*** (`MONDAY/TUESDAY`), not single days. Put every day
-in `days[]` and keep the director's own wording in `label`.
+**Sessions are usually day-*pairs*** (`MONDAY/TUESDAY`), not single days, because the
+email's headers are club-wide slot names shared across teams with different schedules.
+Put every day in `days[]` and keep the director's own wording in `label` — don't
+resolve it to this team's actual day.
+
+**This team's practices are always Monday and Wednesday.** Add a `date` field (the
+calendar date of the actual practice, `YYYY-MM-DD`) to every session: for the
+`MONDAY/...` slot, `date = weekOf` (weekOf is always that week's Monday); for the
+`WEDNESDAY/...` slot, `date = weekOf + 2 days`. `date` is inferred, not transcribed —
+`label`/`days` stay verbatim from the email even though only one of those days is
+actually used. The home screen lists practices by this date, so every session needs one.
 
 **Never reorder `items`.** The list order is the practice progression and it is not
 numeric — a real week ran Variation 2, then 1, then 3. Sorting it silently corrupts
@@ -170,8 +188,18 @@ pairing.
 
 ## Fallback: diagram extraction fails
 
-`tools/extract_diagrams.py` pulls the embedded JPEG from page 1. Every PDF seen so far
-has exactly one. If it reports a miss, the diagram is probably vector art or a
-non-JPEG bitmap, which needs a real renderer (`pymupdf` or `pdfjs-dist`) to rasterize
-page 1 wholesale. That path is **not implemented**. Set `diagram: null`, raise a
-`warn` flag naming the file, and tell the user — do not fabricate a path.
+`tools/extract_diagrams.py` first tries to pull an embedded JPEG from page 1 — most
+PDFs have exactly one. If there's no JPEG, it tries two more shapes before giving up,
+writing a `.png` instead of a `.jpg` when either one succeeds:
+
+1. A plain FlateDecode `/Image` XObject (raw pixels, no JPEG) — decompressed and
+   re-packed as PNG.
+2. No embedded image object at all — the diagram is drawn directly in the content
+   stream as a mosaic of many tiny per-scanline inline images (`BI`/`ID`/`EI`). The
+   script replays `q`/`cm`/`Q` to track position and composites every strip.
+
+Only if *none* of the three shapes match (e.g. genuine vector art with no raster
+content anywhere) does it report a miss. In that case, set `diagram: null`, raise a
+`warn` flag naming the file, and tell the user — do not fabricate a path. Whichever
+path succeeds, spot-check the output against the original PDF page before trusting
+it — read the PNG back with the Read tool.

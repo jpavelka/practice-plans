@@ -1,0 +1,34 @@
+{
+  "id": "2v2-game",
+  "title": "2V2 Game",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-17/2V2 Game.pdf",
+    "originalFilename": "2V2 Game.pdf",
+    "firstSeenWeek": "2026-08-17"
+  },
+  "diagram": {
+    "path": "data/diagrams/2v2-game.png",
+    "width": 1836,
+    "height": 1377,
+    "bytes": 292888,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "20X30 yard area (adjust for your age group)",
+  "instructions": [
+    "The coach passes to the far corner. The receiver dribbles diagonally, and his team mate overlaps. Two defender come in. Play is continuous until the ball is out of bounds. Goalies are not allowed to punt or shoot."
+  ],
+  "coachingPoints": [
+    "Dribble diagonally to create time and space. Pass early. Shoot early. Quick transitions to defense and to offense.",
+    "Look to combine with give-&-gos, overlaps, and through balls.",
+    "Be aware what the defender is taking away and what he is giving you. Take what he gives you."
+  ],
+  "derived": {
+    "equipment": ["goals"],
+    "ageNotes": null,
+    "areaSize": "20x30 yards (adjust for age group)",
+    "formation": "2v2",
+    "tags": ["possession", "combination play"]
+  }
+}
