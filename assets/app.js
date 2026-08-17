@@ -93,7 +93,26 @@
   };
 
   function list(tag, cls, items) {
-    return el(tag, { class: cls }, items.map((t) => el("li", { text: t })));
+    return el(tag, { class: cls }, items.map((t) => el("li", {}, linkifyUrls(t))));
+  }
+
+  /** Transcribed drill text sometimes carries a bare URL (e.g. a YouTube link
+   *  after an instruction). Split it into text/<a> pieces for el() rather than
+   *  showing the raw URL -- a short label is a much easier mobile tap target. */
+  const URL_RE = /https?:\/\/\S+/g;
+  function linkifyUrls(text) {
+    const parts = [];
+    let last = 0;
+    for (const m of text.matchAll(URL_RE)) {
+      const before = text.slice(last, m.index).replace(/\s+$/, "");
+      if (before) parts.push(before);
+      if (parts.length) parts.push(" ");
+      parts.push(el("a", { href: m[0], text: "▶ Watch", target: "_blank", rel: "noopener noreferrer" }));
+      last = m.index + m[0].length;
+    }
+    const after = text.slice(last);
+    if (after) parts.push(after);
+    return parts.length ? parts : text;
   }
 
   // ---------- data helpers ----------
@@ -115,6 +134,13 @@
   function formatDate(iso) {
     return parseLocalDate(iso)
       .toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+  }
+
+  /** "YYYY-MM-DD" for local today, comparable against session.date strings. */
+  function todayISO() {
+    const d = new Date();
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   }
 
   /** Every (week, session) with a practice date, newest first. */
@@ -143,21 +169,45 @@
 
   // ---------- views ----------
 
+  function practiceRow({ week: w, session: s, sessionIdx: si }) {
+    return el("li", {},
+      el("a", { class: "drill-link", href: `#/week/${enc(w.id)}/${si}` },
+        el("span", { class: "body" },
+          el("span", { class: "name", text: formatDate(s.date) }),
+          w.theme ? el("span", { class: "note", text: w.theme }) : null),
+        el("span", { class: "chev", text: "›" })));
+  }
+
+  /** Collapsible group of practices; omitted entirely when empty. */
+  function practiceGroup(label, items, open) {
+    if (!items.length) return null;
+    return el("details", { class: "practice-group", open: open ? "" : null },
+      el("summary", {},
+        el("span", { class: "group-label", text: label }),
+        el("span", { class: "group-count", text: String(items.length) })),
+      el("ol", { class: "drills" }, items.map(practiceRow)));
+  }
+
   function viewHome() {
     setTitle(null);
 
-    const dates = practiceDates();
-    const rows = dates.length
-      ? el("ol", { class: "drills" }, dates.map(({ week: w, session: s, sessionIdx: si }) =>
-          el("li", {},
-            el("a", { class: "drill-link", href: `#/week/${enc(w.id)}/${si}` },
-              el("span", { class: "body" },
-                el("span", { class: "name", text: formatDate(s.date) }),
-                w.theme ? el("span", { class: "note", text: w.theme }) : null),
-              el("span", { class: "chev", text: "›" })))))
-      : el("p", { class: "empty", text: "No practices scheduled yet." });
+    const dates = practiceDates(); // newest first
+    if (!dates.length) {
+      render(el("h2", { text: "Practices" }),
+             el("p", { class: "empty", text: "No practices scheduled yet." }));
+      return;
+    }
 
-    render(el("h2", { text: "Practices" }), rows);
+    const today = todayISO();
+    // dates is newest-first; future needs oldest-first (soonest next), so reverse
+    const future = dates.filter((x) => x.session.date >= today).slice().reverse();
+    const past = dates.filter((x) => x.session.date < today);
+
+    render(
+      el("h2", { text: "Practices" }),
+      practiceGroup("Upcoming", future, true),
+      practiceGroup("Past", past, false)
+    );
   }
 
   function viewWeek(w, sessionIdx) {
@@ -217,6 +267,13 @@
     }
     setPager(ctx);
 
+    // this practice's note on the drill, e.g. "Focus on three moves: ...".
+    // Only meaningful in the context of a specific session -- the drill
+    // library view has no ctx, so it never shows here.
+    const sessionNote = ctx && ctx.session.items[ctx.pos].note
+      ? el("p", { class: "session-note", text: ctx.session.items[ctx.pos].note })
+      : null;
+
     const diagram = d.diagram
       ? el("img", {
           class: "diagram", src: d.diagram.path, alt: `Diagram: ${d.title}`,
@@ -250,8 +307,9 @@
     render(
       head,
       diagram,
+      sessionNote,
       el("h3", { text: "Setup" }),
-      el("p", { class: "prose", text: d.setup }),
+      el("p", { class: "prose" }, linkifyUrls(d.setup)),
       el("h3", { text: "Instructions" }),
       list("ol", "steps prose", d.instructions),
       el("h3", { text: "Coaching points" }),

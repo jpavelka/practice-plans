@@ -182,6 +182,35 @@ h3 { font-size: 1.05rem; margin: 1.5rem 0 .5rem; }
 ol.drills { list-style: none; margin: 0; padding: 0; counter-reset: step; }
 ol.drills > li { margin-bottom: .6rem; }
 
+/* ---------- upcoming / past groups (home) ---------- */
+
+.practice-group { margin-bottom: 1rem; }
+.practice-group > summary {
+  display: flex; align-items: center; gap: .5rem;
+  min-height: var(--tap);
+  padding: 0 .2rem;
+  font-size: .78rem; font-weight: 700; letter-spacing: .07em;
+  text-transform: uppercase; color: var(--ink-soft);
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.practice-group > summary::-webkit-details-marker { display: none; }
+.practice-group > summary::marker { content: ""; }
+.practice-group > summary::before {
+  content: "▸";
+  font-size: .8rem;
+  color: var(--ink-soft);
+}
+.practice-group[open] > summary::before { content: "▾"; }
+.group-count {
+  font-weight: 600;
+  background: var(--surface);
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 0 .5rem;
+}
+.practice-group > .drills { margin-top: .4rem; }
+
 .drill-link {
   display: flex; align-items: center; gap: .8rem;
   min-height: var(--tap);
@@ -237,6 +266,18 @@ ol.drills > li { margin-bottom: .6rem; }
 .drill-head h2 { margin: 0; }
 .drill-head .crumb { margin-bottom: .35rem; }
 
+/* This practice's note on the drill -- distinct from .diagram/.prose below it
+   so it reads as "what to do this time" rather than the drill's own text. */
+.session-note {
+  background: var(--surface);
+  border: 1px solid var(--line); border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: .6rem .8rem;
+  margin: 0 0 1rem;
+  font-size: .92rem;
+  color: var(--ink-soft);
+}
+
 .diagram {
   display: block; width: 100%; height: auto;
   background: var(--surface);
@@ -251,6 +292,12 @@ ol.drills > li { margin-bottom: .6rem; }
 
 .prose { margin: 0; }
 .prose li { margin-bottom: .5rem; }
+.prose a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: nowrap;
+}
 ol.steps { padding-left: 1.3rem; margin: 0; }
 ul.points { padding-left: 1.2rem; margin: 0; }
 
