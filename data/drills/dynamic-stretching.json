@@ -1,0 +1,34 @@
+{
+  "id": "dynamic-stretching",
+  "title": "Dynamic Stretching",
+  "source": {
+    "type": "email",
+    "file": "archive/2026-08-24/body.txt",
+    "sectionHeading": "BASIC SKILL LIST AND VIDEOS",
+    "firstSeenWeek": "2026-08-24"
+  },
+  "diagram": null,
+  "setup": "Dynamic Stretching (Ex: https://youtu.be/G2HRt2-wZ-s)",
+  "instructions": [
+    "Skipping lap",
+    "High kneesButt-kickers",
+    "Carioca",
+    "Forward lunge",
+    "Side lunge",
+    "Side squat",
+    "Knee to chest",
+    "Airplane",
+    "Toe touch",
+    "High kick"
+  ],
+  "coachingPoints": [
+    "Dynamic Stretching (Ex: https://youtu.be/G2HRt2-wZ-s)"
+  ],
+  "derived": {
+    "equipment": [],
+    "ageNotes": null,
+    "areaSize": null,
+    "formation": null,
+    "tags": ["warmup", "dynamic stretching"]
+  }
+}

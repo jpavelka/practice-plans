@@ -1,0 +1,36 @@
+{
+  "id": "1v1-small-area",
+  "title": "1V1 Small Area",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-24/1V1 Small Area.pdf",
+    "originalFilename": "1V1 Small Area.pdf",
+    "firstSeenWeek": "2026-08-24"
+  },
+  "diagram": {
+    "path": "data/diagrams/1v1-small-area.png",
+    "width": 561,
+    "height": 421,
+    "bytes": 134881,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "Area is 8 yards deep and 10 yards wide. Two small goals near the sides. One line of players with balls, one line of players with no balls.",
+  "instructions": [
+    "1v1 battle starts with an accurate pass to the feet. The receiver must perform one of the three moves in order to score. If the defender wins the ball he now tries to score, but must also perform one of the three moves, or combinations of moves."
+  ],
+  "coachingPoints": [
+    "Take a small first touch and do a move immediately.",
+    "Do not wait for the defender to close you down.",
+    "You may have to do multiple combinations of moves.",
+    "Keep the ball moving, and when you see that you have unbalanced the defender accelerate to the side and shoot.",
+    "If you lose the ball get goalside quickly."
+  ],
+  "derived": {
+    "equipment": ["small goals"],
+    "ageNotes": null,
+    "areaSize": "8x10 yards",
+    "formation": "1v1",
+    "tags": ["dribbling", "1v1", "skill moves"]
+  }
+}

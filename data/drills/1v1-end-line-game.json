@@ -1,0 +1,35 @@
+{
+  "id": "1v1-end-line-game",
+  "title": "1v1 End Line Game",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-24/1v1 End Line Game.pdf",
+    "originalFilename": "1v1 End Line Game.pdf",
+    "firstSeenWeek": "2026-08-24"
+  },
+  "diagram": {
+    "path": "data/diagrams/1v1-end-line-game.png",
+    "width": 800,
+    "height": 600,
+    "bytes": 57439,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "10X20 yard area. One group of players with a ball each on one corner. A group of players on the far corner.",
+  "instructions": [
+    "The players in the front of each line move to the center. Blue player passes to red player. They play 1v1 until the ball goes out of bounds. The player with the ball scores by dribbling with control past the opposite end line. The defender must either win the ball and score by dribbling past the opposite end line, or by forcing the attacker out of bounds (no point for either player). Game over when the ball is out of bounds, and the two players go to the opposite lines. The next two players immediately start their battle."
+  ],
+  "coachingPoints": [
+    "Accurate pass to the feet.",
+    "Good first touch (soft, short touch).",
+    "The attacker must start doing fakes immediately – no not wait for the defender to close you down.",
+    "Beating a defender: approach the defender with control and doing fakes, fake one way, change direction, change speed (attack the space with maximum speed)."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "10x20 yards",
+    "formation": "1v1",
+    "tags": ["dribbling", "1v1", "passing"]
+  }
+}
