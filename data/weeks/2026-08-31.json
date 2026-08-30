@@ -1,0 +1,155 @@
+{
+  "id": "2026-08-31",
+  "weekOf": "2026-08-31",
+  "weekOfRaw": "Aug 31-Sept 3",
+  "theme": "The main focus this season is on perfecting fundamental technical skills – dribbling, passing, 1st touch, shooting.",
+  "goal": "Please see the attached exercises for the week of Aug 31-Sept 3. This week we continue the microcycle focused on passing and receiving.",
+  "seasonFocus": "The main focus this season is on perfecting fundamental technical skills – dribbling, passing, 1st touch, shooting. The warmup exercises are crucial, because they introduce the main coaching points and correct body shape to dribble, pass, receive, etc. Make sure all players are executing these skills correctly from the beginning to the end of the practices and games. If you let them repeat these exercises with wrong technique you are letting them acquire BAD HABITS.",
+  "sourceEmail": {
+    "file": "archive/2026-08-31/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 5
+  },
+  "sessions": [
+    {
+      "label": "Monday/Tuesday",
+      "days": ["Monday", "Tuesday"],
+      "date": "2026-08-31",
+      "items": [
+        {
+          "drillId": "dribble-skill-pass-1",
+          "asWritten": "Dribble-Skill-Pass (focus on side-step, scissors, Iniesta, step-overs)",
+          "note": "focus on side-step, scissors, Iniesta, step-overs"
+        },
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "3v1 Possession Game",
+          "note": null
+        },
+        {
+          "drillId": "3-1-v-1-pass-and-support",
+          "asWritten": "3+1v1 Pass And Support",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1… Game 2 Large Goals (Start 2v2 and the team with the ball can pass in an extra player)",
+          "note": "Start 2v2 and the team with the ball can pass in an extra player"
+        }
+      ]
+    },
+    {
+      "label": "Wednesday/Thursday",
+      "days": ["Wednesday", "Thursday"],
+      "date": "2026-09-02",
+      "items": [
+        {
+          "drillId": "dribble-skill-pass-1",
+          "asWritten": "Dribble-Skill-Pass (focus on side-step, scissors, Iniesta, step-overs)",
+          "note": "focus on side-step, scissors, Iniesta, step-overs"
+        },
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "3V1 Passing Game",
+          "note": null
+        },
+        {
+          "drillId": "2v2-2-target-players",
+          "asWritten": "2v2 + 2 Target Players",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1… Game 2 Large Goals (Start 2v2 and the team with the ball can pass in an extra player)",
+          "note": "Start 2v2 and the team with the ball can pass in an extra player"
+        }
+      ]
+    }
+  ],
+  "logistics": [
+    "For all these exercises make sure you set up several areas so all players are active simultaneously.",
+    "NEW SKILL MOVE TO INTRODUCE: Iniesta: https://www.youtube.com/shorts/sKqrmk2CKJQ"
+  ],
+  "coachingNotes": [
+    {
+      "title": "Cycle Of Possession",
+      "scope": "week",
+      "points": [
+        "This week we continue the microcycle focused on passing and receiving. Start by asking the players to recite the four stages of the cycle of possession:",
+        "Get open – pop away from the defender to create time and space (Questions to ask: Who should pop away? Answer: the player off the ball. How many? Everyone except the player with the ball. How often? Every time the ball moves.)",
+        "Good first touch (it should be a small touch, turning away from pressure to create time and space and set up a change in the point of attack)",
+        "Escape the pressure from a defender by dribbling to space (the ball attracts defenders, so you must escape to create time and space and make a safe pass). Four ways to do this, depending on how close the defender is: touch to the side, skill move, turn and face away, sole delay.",
+        "Accurate pass (No matter what you must pass to the feet. The pass must be on the ground and sharp – no slow balls. Pass to the player with the most time and space).",
+        "Passing and receiving involves parts 2 and 4 of the cycle of possession. They still must perform 1 and 3, but the focus of your coaching should be 2 and 4."
+      ]
+    },
+    {
+      "title": "Key Technical Points",
+      "scope": "week",
+      "points": [
+        "Plant the non-kicking foot side-by-side with the ball – make sure they don't plant it behind the ball.",
+        "Turn the knee and toes of the kicking foot to the side, at a 90 degree angle, and point the toe up.",
+        "Make contact with the ball only with the solid flat side of the heel, not the side of the big toe.",
+        "Turn on the 1st touch every time.",
+        "Soft, short 1st touch.",
+        "Push through the ball when passing with exaggerated follow-through so you guide the ball to the target accurately.  Control the direction of the pass by swinging your kicking let toward the target."
+      ]
+    },
+    {
+      "title": "Important Technical And Tactical Points To Emphasize",
+      "scope": "evergreen",
+      "points": [
+        "At this stage never allow 1 touch play during games or game like exercises. It is ok to do 1 touch in warmup exercises after two-touches, as a challenge. Players must learn to make a soft, short 1st touch so they can keep possession and play the ball quickly, rather than blasting the ball away with one touch. That is the biggest reason for turnovers by lower skill players.",
+        "When receiving or passing with the inside of the foot make sure your toes are pointing up (so the ball does not pop up or roll over your foot)",
+        "When receiving or passing with the outside of the foot point your toe down (same reason…)",
+        "When passing, push through the ball and swing the kicking leg up – do not jab the kicking foot down on the ground.",
+        "Before receiving pop away and turn your body to open yourself up to face the field of play, and to face your team mates, so you can pass before you are under pressure. This gives you more time and space.",
+        "After passing move to space to give your team mates passing options.",
+        "Emphasize the cycle of possession: Pop away, good first touch (one that creates time and space); escape the pressure (to create time and space to pass); accurate pass (to the player with the most time and space)",
+        "The cue to make a run is when the player with the ball takes a preparation touch and looks up. The cue to pass is when the runner starts the run. So the run comes first. Otherwise always pass to the feet. When passing to the runner pass so the ball meets the feet as well…",
+        "Attackers must always be aware what options the defenders are taking away, and what options they are giving you. Take what they give you.",
+        "Start making these coaching points with the warmup exercises, and carry them over throughout the progression."
+      ]
+    }
+  ],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "weekOf",
+      "message": "Email gives an explicit unambiguous range ('week of Aug 31-Sept 3'). Aug 31, 2026 is a Monday and Sept 3 is a Thursday, covering both club-wide slot pairs. weekOf = 2026-08-31; sessions[0].date = 2026-08-31 (Monday), sessions[1].date = 2026-09-02 (Wednesday), per this team's standing Monday/Wednesday schedule."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[1].items[1].drillId",
+      "message": "Wednesday/Thursday line reads '3V1 Passing Game' but the only 3v1 attachment this week is titled '3v1 Possession Game' (PDF instructions describe scoring via consecutive passes/dribbling out, matching 'Possession'). No separate 'Passing Game' PDF exists. Matched to drill '3v1-possession-game' as the director's loose alternate name for the same drill -- confidence is lower than a normal prefix match since the second word differs, not just punctuation."
+    },
+    {
+      "level": "info",
+      "field": "sessions[0].items[2].drillId",
+      "message": "Email line '3+1v1 Pass And Support' matched to PDF titled '3+1 V 1 - Pass And Support' (drill '3-1-v-1-pass-and-support'). Match required folding out an internal space difference ('1v1' vs '1 V 1'), beyond the usual punctuation/casefold normalization, but only one 3+1v1 attachment exists this week so confidence is high."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "All 5 drill records this week are new (dribble-skill-pass-1, 3v1-possession-game, 3-1-v-1-pass-and-support, 2v2-1-1-game-2-large-goals, 2v2-2-target-players) -- none reused from prior weeks. All 5 PDF attachments are referenced by at least one session."
+    },
+    {
+      "level": "info",
+      "field": "drills[*].diagram",
+      "message": "All 5 diagrams extracted cleanly as embedded DCTDecode JPEGs (no fallback needed). Three came out at 3508x2480 and one at 2400x1800 -- notably higher resolution (full print/A4 scan size) than any prior week's diagrams (previous max was 1950x1461) -- so needsDownscale was set to true on those four as a flag for a human to consider re-encoding smaller for the phone-facing site. The fifth (3-1-v-1-pass-and-support) came out at 800x600, consistent with prior weeks, and needsDownscale was left false."
+    },
+    {
+      "level": "info",
+      "field": "sourceEmail",
+      "message": "Inbox arrived as 'message.txt' + 'attachments.zip' rather than the usual 'body.txt' + loose PDFs (an email-client export format). Copied message.txt to body.txt and unzipped the 5 PDFs before extraction; underlying content is unchanged. attachments.zip itself is not one of the archived source files (superseded by the unzipped PDFs already present in the archive)."
+    },
+    {
+      "level": "info",
+      "field": "coachingNotes",
+      "message": "Email body has no explicit section headings (e.g. no 'KEY TECHNICAL POINTS:' formatting artifacts beyond the literal text) -- 'KEY TECHNICAL POINTS:' and the intro to 'Important technical and tactical points to emphasize:' were used verbatim as coachingNotes titles/lead-ins. The opening season-focus paragraph is duplicated into both 'theme' and 'seasonFocus' since the email doesn't clearly separate a weekly theme from the season-long focus statement this week -- both read as the same paragraph in the source."
+    }
+  ]
+}

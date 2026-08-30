@@ -1,0 +1,40 @@
+{
+  "id": "3-1-v-1-pass-and-support",
+  "title": "3+1 V 1 - Pass And Support",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-31/3+1 V 1 - Pass And Support.pdf",
+    "originalFilename": "3+1 V 1 - Pass And Support.pdf",
+    "firstSeenWeek": "2026-08-31"
+  },
+  "diagram": {
+    "path": "data/diagrams/3-1-v-1-pass-and-support.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 24652,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "15x20 yard area, with a buffer zone in the middle. 3v1 on one side, 1 target player on the other. Set up two or three of these so the whole team plays.",
+  "instructions": [
+    "Play 3v1 possession.",
+    "Players must make a minimum of 4 passes (more or less as needed) before they can play a long ball to the target player.",
+    "The defender then chases the ball to the other side, and two attacking players must then run to the opposite side to support their target player.",
+    "They try to get 4 passes and send a long pass the other way again.",
+    "They get a point for successfully passing to the target player.",
+    "The defender gets a point by winning the ball and passing to the target player.",
+    "Change defenders when any group gets three points.",
+    "VARIATION: 4V2 + 1 target."
+  ],
+  "coachingPoints": [
+    "Move off the ball to provide passing options - safe angle and maximum distance.",
+    "Don't force the pass - be patient and make safe passes, until it is safe to pass to the target."
+  ],
+  "derived": {
+    "equipment": null,
+    "ageNotes": null,
+    "areaSize": "15x20 yards, with a buffer zone in the middle",
+    "formation": "3v1 (+1 target)",
+    "tags": ["possession", "passing", "support play"]
+  }
+}

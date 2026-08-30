@@ -1,0 +1,39 @@
+{
+  "id": "3v1-possession-game",
+  "title": "3v1 Possession Game",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-31/3v1 Possession Game.pdf",
+    "originalFilename": "3v1 Possession Game.pdf",
+    "firstSeenWeek": "2026-08-31"
+  },
+  "diagram": {
+    "path": "data/diagrams/3v1-possession-game.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 242235,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "10X10 yard squares. As many squares as needed so all players participate. 3 attackers vs 1 defender.",
+  "instructions": [
+    "Play 3v1 until attackers or defenders get three points.",
+    "Attackers score every 5 consecutive passes.",
+    "Defenders score by dribbling out of the square through one side designated by the coach."
+  ],
+  "coachingPoints": [
+    "Take a touch to the side before passing to create space.",
+    "Pass to the feet.",
+    "Whenever a pass is made the third attacker must run to provide a passing option on the right or left of the ball.",
+    "Pass to the player with the most time and space.",
+    "Turn on the 1st touch.",
+    "Use deception (fakes)."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "10x10 yards (multiple squares)",
+    "formation": "3v1",
+    "tags": ["possession", "passing"]
+  }
+}

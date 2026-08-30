@@ -1,0 +1,42 @@
+{
+  "id": "2v2-2-target-players",
+  "title": "2v2 + 2 Target Players",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-31/2v2 + 2 Target Players.pdf",
+    "originalFilename": "2v2 ^M 2 Target Players.pdf",
+    "firstSeenWeek": "2026-08-31"
+  },
+  "diagram": {
+    "path": "data/diagrams/2v2-2-target-players.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 239362,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "20X20 yard area. 3 teams of 2 players. One team serves as target players, outside opposite ends.",
+  "instructions": [
+    "Play 2v2 in the middle.",
+    "The team in possession scores by passing to the outside target players, receiving the ball back, and passing to the opposite target player without losing possession.",
+    "When a team scores 3 points the losing team becomes target players."
+  ],
+  "coachingPoints": [
+    "Escape the pressure by dribbling to the side.",
+    "Look up and scan the field to find your team mate.",
+    "Pass to the feet.",
+    "Turn on the 1st touch.",
+    "Move off the ball to get open.",
+    "Create maximum width.",
+    "When you play to the target both inside players must move wide to create time and space.",
+    "One defender MUST try to win the ball when it is played to a target player (can go outside the box), and the target player must take a touch to the side to escape the pressure.",
+    "Target players must move laterally to provide safe passing angles."
+  ],
+  "derived": {
+    "equipment": null,
+    "ageNotes": null,
+    "areaSize": "20x20 yards",
+    "formation": "2v2 + 2 target players",
+    "tags": ["possession", "passing", "target players"]
+  }
+}

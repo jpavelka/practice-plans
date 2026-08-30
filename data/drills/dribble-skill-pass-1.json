@@ -1,0 +1,39 @@
+{
+  "id": "dribble-skill-pass-1",
+  "title": "Dribble-Skill-Pass 1",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-08-31/Dribble-Skill-Pass.pdf",
+    "originalFilename": "Dribble-Skill-Pass.pdf",
+    "firstSeenWeek": "2026-08-31"
+  },
+  "diagram": {
+    "path": "data/diagrams/dribble-skill-pass-1.jpg",
+    "width": 2400,
+    "height": 1800,
+    "bytes": 146182,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "Several lines with 3 cones each so you have 3 players per line. If your team has 12 players you will need 4 lines. Cones are 10 yards apart. One ball per line. Two players on one side, one player on the other.",
+  "instructions": [
+    "The player with the ball dribbles with the laces toward the middle cone, performs a designated skill move, takes a touch to the side, and passes to the opposite player.",
+    "He then follows the pass and runs to the opposite side.",
+    "The receiver does a good first touch, and repeats the process in the other direction."
+  ],
+  "coachingPoints": [
+    "Dribble with the laces, toes pointing down, small quick touches.",
+    "Do the designated move early - don't get too close to the middle cone (=defender).",
+    "Take a touch straight to the side to create space to pass.",
+    "Make an accurate pass (swing your passing leg straight toward the target player).",
+    "Spring to the opposite line (take the place of the receiver).",
+    "Skills: 1. touch to the side; 2. side step; 3. scissors; 4. step-over; 5. Iniesta; 6. pull-push; 7. pull-cut"
+  ],
+  "derived": {
+    "equipment": ["cones", "balls"],
+    "ageNotes": null,
+    "areaSize": "cones set 10 yards apart per line",
+    "formation": "lines of 3 players",
+    "tags": ["dribbling", "skill move", "passing"]
+  }
+}
