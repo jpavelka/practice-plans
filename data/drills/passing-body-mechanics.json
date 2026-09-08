@@ -1,0 +1,41 @@
+{
+  "id": "passing-body-mechanics",
+  "title": "Passing - Body Mechanics",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-07/Passing - Body Mechanics.pdf",
+    "originalFilename": "Passing - Body Mechanics.pdf",
+    "firstSeenWeek": "2026-09-07"
+  },
+  "diagram": {
+    "path": "data/diagrams/passing-body-mechanics.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 24652,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "Two cones 3 or 4 feet apart forming a gate. Two players and one ball on either side. Set up multiple gates so all players participate simultaneously.",
+  "instructions": [
+    "Variation 1: Players pass back and forth, each player must take two touches.",
+    "Variation 2: Race - see which pair of players can complete 40 passes first (repeat).",
+    "Variation 3: Players pass back and forth, each player has only one touch.",
+    "Variation 4: Race - see which pair of players can complete 40 passes first (repeat)."
+  ],
+  "coachingPoints": [
+    "Make sure all players are using the right body mechanics/body shape.",
+    "They must perform this correctly to develop good habits.",
+    "This is the right body mechanics: 1. Plant the non kicking foot side by side with the ball (not behind it), with the toes pointing to the target player.",
+    "2. Point the non kicking foot and knee to the side, 90 degrees in relation to the non kicking foot.",
+    "3. Swing the kicking foot through the ball and up in the air, like a golf put. Do not fall forward and jab your kicking foot into the ground. Swing the leg in a straight line directly toward the target.",
+    "3. Contact the ball with the flat side of the heel, not the side of the big toe.",
+    "Coaches must make sure all players perform with the correct body mechanics."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": null,
+    "formation": "pairs at gates",
+    "tags": ["passing", "body mechanics", "technique"]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "2026-09-07",
+  "weekOf": "2026-09-07",
+  "weekOfRaw": "Sept. 8 to Sept. 10",
+  "theme": "The focus is passing mechanics and receiving correctly (good first touch).",
+  "goal": "Please see the attached exercises for the week of Sept. 8 to Sept. 10. The focus is passing mechanics and receiving correctly (good first touch). These skills are fundamental and we will build on it in the coming sessions that will develop possession, combinations, and creating goal opportunities.",
+  "seasonFocus": "These skills are fundamental and we will build on it in the coming sessions that will develop possession, combinations, and creating goal opportunities. Make sure all players are executing these skills correctly from the beginning to the end of the practices and games. If you let them repeat these exercises with wrong technique you are letting them acquire BAD HABITS.",
+  "sourceEmail": {
+    "file": "archive/2026-09-07/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 5
+  },
+  "sessions": [
+    {
+      "label": "Wednesday/Thursday",
+      "days": ["Wednesday", "Thursday"],
+      "date": "2026-09-09",
+      "items": [
+        {
+          "drillId": "passing-body-mechanics",
+          "asWritten": "Passing - Body Mechanics",
+          "note": null
+        },
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "3V1 Passing Game",
+          "note": null
+        },
+        {
+          "drillId": "2v2-2-target-players",
+          "asWritten": "2v2 + 2 Target Players",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1… Game 2 Large Goals (Start 2v2 and the team with the ball can pass in an extra player)",
+          "note": "Start 2v2 and the team with the ball can pass in an extra player"
+        }
+      ]
+    }
+  ],
+  "logistics": [
+    "For all these exercises make sure you set up several areas so all players are active simultaneously.",
+    "NEW SKILL MOVE TO INTRODUCE: Iniesta: https://www.youtube.com/shorts/sKqrmk2CKJQ"
+  ],
+  "coachingNotes": [
+    {
+      "title": "Weekly Emphasis Notes",
+      "scope": "week",
+      "points": [
+        "The first exercise is crucial to teach the correct body mechanics for passing and receiving. Make sure you demonstrate the correct body mechanics and insist that players execute it correctly. Read the details in the attachment.",
+        "The 3V1 exercise is crucial to teach possession. Make sure players are executing each of the four moments of the cycle of possession. Three touches minimum on the ball is required.",
+        "The third exercises were skipped last week because we lacked space and time, since we went indoors. Make sure you walk through those exercises in your initial demonstration so players understand and execute them correctly."
+      ]
+    },
+    {
+      "title": "Cycle Of Possession",
+      "scope": "week",
+      "points": [
+        "This week we continue the microcycle focused on passing and receiving. Start by asking the players to recite the four stages of the cycle of possession:",
+        "Get open – pop away from the defender to create time and space (Questions to ask: Who should pop away? Answer: the player off the ball. How many? Everyone except the player with the ball. How often? Every time the ball moves.)",
+        "Good first touch (it should be a small touch, turning away from pressure to create time and space and set up a change in the point of attack)",
+        "Escape the pressure from a defender by dribbling to space (the ball attracts defenders, so you must escape to create time and space and make a safe pass). Four ways to do this, depending on how close the defender is: touch to the side, skill move, turn and face away, sole delay.",
+        "Accurate pass (No matter what you must pass to the feet. The pass must be on the ground and sharp – no slow balls. Pass to the player with the most time and space).",
+        "Passing and receiving involves parts 2 and 4 of the cycle of possession. They still must perform 1 and 3, but the focus of your coaching should be 2 and 4."
+      ]
+    },
+    {
+      "title": "Key Technical Points",
+      "scope": "week",
+      "points": [
+        "Plant the non-kicking foot side-by-side with the ball – make sure they don’t plant it behind the ball.",
+        "Turn the knee and toes of the kicking foot to the side, at a 90 degree angle, and point the toe up.",
+        "Make contact with the ball only with the solid flat side of the heel, not the side of the big toe.",
+        "Turn on the 1st touch every time.",
+        "Soft, short 1st touch.",
+        "Push through the ball when passing with exaggerated follow-through so you guide the ball to the target accurately.  Control the direction of the pass by swinging your kicking let toward the target."
+      ]
+    },
+    {
+      "title": "Important Technical And Tactical Points To Emphasize",
+      "scope": "evergreen",
+      "points": [
+        "At this stage never allow 1 touch play during games or game like exercises. It is ok to do 1 touch in warmup exercises after two-touches, as a challenge. Players must learn to make a soft, short 1st touch so they can keep possession and play the ball quickly, rather than blasting the ball away with one touch. That is the biggest reason for turnovers by lower skill players.",
+        "When receiving or passing with the inside of the foot make sure your toes are pointing up (so the ball does not pop up or roll over your foot)",
+        "When receiving or passing with the outside of the foot point your toe down (same reason…)",
+        "When passing, push through the ball and swing the kicking leg up – do not jab the kicking foot down on the ground.",
+        "Before receiving pop away and turn your body to open yourself up to face the field of play, and to face your team mates, so you can pass before you are under pressure. This gives you more time and space.",
+        "After passing move to space to give your team mates passing options.",
+        "Emphasize the cycle of possession: Pop away, good first touch (one that creates time and space); escape the pressure (to create time and space to pass); accurate pass (to the player with the most time and space)",
+        "The cue to make a run is when the player with the ball takes a preparation touch and looks up. The cue to pass is when the runner starts the run. So the run comes first. Otherwise always pass to the feet. When passing to the runner pass so the ball meets the feet as well…",
+        "Attackers must always be aware what options the defenders are taking away, and what options they are giving you. Take what they give you.",
+        "Start making these coaching points with the warmup exercises, and carry them over throughout the progression."
+      ]
+    }
+  ],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "weekOf",
+      "message": "Email gives 'the week of Sept. 8 to Sept. 10' with no year; resolved from the current week context to 2026. Note the range starts Tuesday, not Monday -- weekOf is still set to that week's Monday (2026-09-07) per this team's standing id convention, even though no practice was held that day (see the sessions flag below)."
+    },
+    {
+      "level": "warn",
+      "field": "sessions",
+      "message": "The email's MONDAY/TUESDAY slot (this team's Monday, 2026-09-07) was Labor Day; Jeff confirmed the team did not hold practice that day. That slot is omitted from sessions[] entirely rather than given a date, so it won't appear as a held practice. Its planned lineup, for reference, was: Passing - Body Mechanics, 3v1 Possession Game, 3+1v1 Pass And Support, 2v2+1+1... Game 2 Large Goals. Only the WEDNESDAY/THURSDAY session (2026-09-09) is recorded this week."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "Only 'passing-body-mechanics' is a new drill record this week. '3v1-possession-game', '2v2-2-target-players', and '2v2-1-1-game-2-large-goals' already existed from week 2026-08-31 and were reused as-is (titles matched their PDFs from this week's attachments). '3+1 V 1 - Pass And Support.pdf' was attached again but only appeared in the cancelled Monday/Tuesday lineup, so drill '3-1-v-1-pass-and-support' (already on file) is not referenced by any session this week."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[0].items[1].drillId",
+      "message": "Wednesday/Thursday line reads '3V1 Passing Game' but the only 3v1 attachment this week is titled '3v1 Possession Game', same mismatch as week 2026-08-31. Matched to drill '3v1-possession-game' on the same reasoning as before -- confidence lower than a normal prefix match."
+    }
+  ]
+}
