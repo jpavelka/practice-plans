@@ -1,0 +1,96 @@
+{
+  "id": "2026-09-14",
+  "weekOf": "2026-09-14",
+  "weekOfRaw": null,
+  "theme": null,
+  "goal": null,
+  "seasonFocus": null,
+  "sourceEmail": {
+    "file": "archive/2026-09-14/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 0
+  },
+  "sessions": [
+    {
+      "label": "Monday/Tuesday",
+      "days": ["Monday", "Tuesday"],
+      "date": "2026-09-14",
+      "items": [
+        {
+          "drillId": "passing-body-mechanics",
+          "asWritten": "Passing - Body Mechanics",
+          "note": null
+        },
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "3v1 Possession Game",
+          "note": null
+        },
+        {
+          "drillId": "3-1-v-1-pass-and-support",
+          "asWritten": "3+1v1 Pass And Support",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1… Game 2 Large Goals (Start 2v2 and the team with the ball can pass in an extra player)",
+          "note": "Start 2v2 and the team with the ball can pass in an extra player"
+        }
+      ]
+    },
+    {
+      "label": "Wednesday/Thursday",
+      "days": ["Wednesday", "Thursday"],
+      "date": "2026-09-16",
+      "items": [
+        {
+          "drillId": "passing-body-mechanics",
+          "asWritten": "Passing - Body Mechanics",
+          "note": null
+        },
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "3V1 Passing Game",
+          "note": null
+        },
+        {
+          "drillId": "2v2-2-target-players",
+          "asWritten": "2v2 + 2 Target Players",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1… Game 2 Large Goals (Start 2v2 and the team with the ball can pass in an extra player)",
+          "note": "Start 2v2 and the team with the ball can pass in an extra player"
+        }
+      ]
+    }
+  ],
+  "logistics": [],
+  "coachingNotes": [],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "sourceEmail",
+      "message": "Jeff pasted only the drill lineup for this week directly into the conversation rather than dropping a full email + PDFs into inbox/ -- he said this week's drills are a repeat of week 2026-08-31/2026-09-07 and the PDFs were already on file. No new PDF attachments this week; all four referenced drills already existed as records, so no extraction or archiving of PDFs was needed. The pasted snippet was saved to archive/2026-09-14/body.txt for the record, but there is no original email body with theme/goal/seasonFocus/logistics prose, so those fields are left null/empty rather than invented."
+    },
+    {
+      "level": "info",
+      "field": "weekOf",
+      "message": "No explicit date range was given with this snippet. weekOf was set to 2026-09-14 (today, a Monday) based on today's date and the sequential weekly pattern following week 2026-09-07 -- not from an explicit statement in the source, so weekOfRaw is left null rather than fabricated."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "No new drill records created this week. All four referenced drills ('passing-body-mechanics', '3v1-possession-game', '3-1-v-1-pass-and-support', '2v2-2-target-players', '2v2-1-1-game-2-large-goals') were reused as-is from prior weeks; no PDFs were re-attached or re-transcribed."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[1].items[1].drillId",
+      "message": "Wednesday/Thursday line reads '3V1 Passing Game' but the matched drill is titled '3v1 Possession Game' -- same mismatch flagged in week 2026-09-07 and 2026-08-31. Matched on the same reasoning as those weeks; confidence lower than a normal prefix match."
+    }
+  ]
+}
