@@ -1,0 +1,46 @@
+{
+  "id": "shooting-variation-1-dribble-touch-to-the-side-shoot",
+  "title": "Shooting Variation 1 - Dribble-Touch To The Side-Shoot",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-21/Shooting Variation 1 - Dribble-Touch To The Side-Shoot.pdf",
+    "originalFilename": "Shooting Variation 1 - Dribble-Touch To The Side-Shoot.pdf",
+    "firstSeenWeek": "2026-09-21"
+  },
+  "diagram": {
+    "path": "data/diagrams/shooting-variation-1-dribble-touch-to-the-side-shoot.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 267742,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "To maximize repetitions per player set up two goals as shown. Two teams in line at starting cone, two poles (=defender), two large goals. Each player has a ball. The distance from the poles to the center of the goal should be 10 to 15 yards for U8 and U10, and 15 to 20 yards for U12 and U14.",
+  "instructions": [
+    "The front players dribble to the pole, take a touch to the side, and shoot.",
+    "Rotation: the shooter becomes the goalie, the goalie gets the ball and goes to the back of the line (return to the same line).",
+    "The cue for players to start dribbling is when the player in front takes the shot.",
+    "No waiting around, keep it moving so everyone gets lots of repetition."
+  ],
+  "coachingPoints": [
+    "Dribble with the shoe laces, toes pointing down.",
+    "Soft touches, quick feet (high frequency).",
+    "Don't get too close to the defender (pole).",
+    "Take a touch to the side, accelerate to the ball and shoot with the next touch.",
+    "Shoot with a diagonal leg swing and aim for the back post.",
+    "Touch to the side to the left if you want to shoot with the left.",
+    "Shooting: step side by side with the ball, not too far, not too close.",
+    "Point the toes of the plant foot toward the target.",
+    "Lock the ankle joint.",
+    "Big back-swing, snap the knee joint, and big follow-through swing with the kicking leg.",
+    "Swing the kicking let up and toward the desired target.",
+    "The leg swing determines the direction and accuracy of the shot."
+  ],
+  "derived": {
+    "equipment": ["poles", "goals", "balls"],
+    "ageNotes": null,
+    "areaSize": "poles 10-15 yards from goal for U8/U10, 15-20 yards for U12/U14",
+    "formation": null,
+    "tags": ["shooting", "dribbling"]
+  }
+}

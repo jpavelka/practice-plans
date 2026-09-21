@@ -1,0 +1,39 @@
+{
+  "id": "shooting-variation-3-shooting-on-the-turn",
+  "title": "Shooting Variation 3 - Shooting On The Turn",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-21/Shooting Variation 3 - Shooting On The Turn.pdf",
+    "originalFilename": "Shooting Variation 3 - Shooting On The Turn.pdf",
+    "firstSeenWeek": "2026-09-21"
+  },
+  "diagram": {
+    "path": "data/diagrams/shooting-variation-3-shooting-on-the-turn.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 289857,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "Two large goals, two poles (=defenders), two lines of players. Each player with a ball. Poles should be 12 yards (U8, U10) to 15 yards (U12, U14) from goal. Line of players at A and D, target players at B and E, goalies at C and F.",
+  "instructions": [
+    "A passes to B, who turns with one touch and shoots with the next touch.",
+    "D passes to E, who turns with one touch and shoots on the next touch.",
+    "Rotation: A goes to B, B goes to C, C goes to A. D to E to F, to D. Play as soon as the player ahead of you takes the shoot - keep it moving!"
+  ],
+  "coachingPoints": [
+    "Passes must have good pace and be on the ground.",
+    "Turn with one touch, pushing the ball away from the defender and slightly behind him.",
+    "Turn with the inside of one foot (toes pointing up), or with the outside of the other (toes pointing down).",
+    "The next touch must be a shot.",
+    "Shoot side on, aiming for the back post.",
+    "Focus on proper shooting technique/body mechanics."
+  ],
+  "derived": {
+    "equipment": ["poles", "goals", "balls"],
+    "ageNotes": null,
+    "areaSize": "poles 12 yards from goal (U8/U10) to 15 yards (U12/U14)",
+    "formation": null,
+    "tags": ["shooting", "passing", "turning"]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "shooting-variation-2-dribble-touch-to-the-side-shoot-side-on",
+  "title": "Shooting Variation 2 - Dribble-Touch To The Side-Shoot Side-On",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-21/Shooting Variation 2 - Dribble-Touch To The Side-Shoot Side-On.pdf",
+    "originalFilename": "Shooting Variation 2 - Dribble-Touch To The Side-Shoot Side-On.pdf",
+    "firstSeenWeek": "2026-09-21"
+  },
+  "diagram": {
+    "path": "data/diagrams/shooting-variation-2-dribble-touch-to-the-side-shoot-side-on.jpg",
+    "width": 3508,
+    "height": 2480,
+    "bytes": 260344,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": true
+  },
+  "setup": "One large goal, three large cones or poles to represent defenders, two smaller cones (A and B) to mark where the players line up. The three cones should be: one in front of each goal post, one in the middle. Three cones distance from goal line: 8 yards for U8s and U10s, 10 yards for U12s and U14s.",
+  "instructions": [
+    "Dribble toward the cone on the left side, take a touch to the side, one more touch to go past the central cone (defender), then shoot diagonally to the back post.",
+    "Do not push the ball behind the cones (defenders), but rather shoot from the space in front."
+  ],
+  "coachingPoints": [
+    "Dribble with the shoe laces, toes pointing down.",
+    "High frequency of touches.",
+    "Big touch to the side, parallel to the defenders - maintain a safe distance to the defenders.",
+    "Shoot through the gaps.",
+    "Best: push the ball past the central defender - that will attract the goalie to the right goal post.",
+    "Then shoot diagonally toward the back post, using the goalie's momentum against him/her.",
+    "Reinforce all the shooting body mechanics: Shooting: step side by side with the ball, not too far, not too close.",
+    "Point the toes of the plant foot toward the target.",
+    "Lock the ankle joint.",
+    "Big back-swing, snap the knee joint, and big follow-through swing with the kicking leg.",
+    "Swing the kicking let up and toward the desired target.",
+    "The leg swing determines the direction and accuracy of the shot."
+  ],
+  "derived": {
+    "equipment": ["cones", "poles", "goal"],
+    "ageNotes": null,
+    "areaSize": "defender cones 8 yards from goal for U8/U10, 10 yards for U12/U14",
+    "formation": null,
+    "tags": ["shooting", "dribbling"]
+  }
+}
