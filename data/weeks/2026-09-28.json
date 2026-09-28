@@ -1,0 +1,161 @@
+{
+  "id": "2026-09-28",
+  "weekOf": "2026-09-28",
+  "weekOfRaw": "Sept. 28-Oct 1",
+  "theme": "This week we start the microcycle focused on possession.",
+  "goal": "Please see the attached exercises for Sept. 28-Oct 1. This week we start the microcycle focused on possession.",
+  "seasonFocus": null,
+  "sourceEmail": {
+    "file": "archive/2026-09-28/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 6
+  },
+  "sessions": [
+    {
+      "label": "Monday/Tuesday",
+      "days": ["Monday", "Tuesday"],
+      "date": "2026-09-28",
+      "items": [
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "Warmup: 3V1 Possession Game (or 4v1)",
+          "note": "or 4v1"
+        },
+        {
+          "drillId": "rondo-5-4v1-central-target",
+          "asWritten": "Rondo 5 – 4v1 Central Target",
+          "note": null
+        },
+        {
+          "drillId": "1v1-2-targets",
+          "asWritten": "1V1 + 2 Targets",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1 Game 2 Large Goals",
+          "note": null
+        }
+      ]
+    },
+    {
+      "label": "Wednesday/Thursday",
+      "days": ["Wednesday", "Thursday"],
+      "date": "2026-09-30",
+      "items": [
+        {
+          "drillId": "3v1-possession-game",
+          "asWritten": "Warmup: 3V1 (or 4v1),",
+          "note": "or 4v1"
+        },
+        {
+          "drillId": "4v1-passing-through-triangles",
+          "asWritten": "4v2 Triangles",
+          "note": null
+        },
+        {
+          "drillId": "2v2-2-target-players",
+          "asWritten": "2V2 + 2 Targets",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1 Game 2 Large Goals",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "logistics": [
+    "Read the article attached on Manipulating Practice Variables.",
+    "You can adjust the number of players on each exercise, and the duration of each exercise, so it works for the numbers and age group that you are working with.",
+    "Make adjustments to increase or decrease the level of difficulty based on your players’ abilities.",
+    "The variables you can manipulate to make these adjustments include: the number of players on offense, the number of players on defense, the size of the area of play, conditions or restrictions of play, the use of goals, poles, etc."
+  ],
+  "coachingNotes": [
+    {
+      "title": "Cycle Of Possession",
+      "scope": "week",
+      "points": [
+        "Work on all four functions, but do it chronologically – first work on \"popping away\" from the defender to create time and space, second work on a good first touch, third work on escaping the pressure (by taking a touch to the side, or turning and facing away from the defender, or doing a skill move); fourth work on accurate pass to the player with the most time and space.",
+        "Each of these functions should be done so as to create the maximum amount of time and space."
+      ]
+    },
+    {
+      "title": "Escaping The Pressure",
+      "scope": "week",
+      "points": [
+        "What to do depends on how close the defender is to you and how fast he is coming (how much time and space you have).",
+        "If you have no time and space immediately turn and face away, then take a touch to the side to create space",
+        "If you have a little time and space take a touch to the side to create space to pass, shoot, or dribble away",
+        "If you have even more time you can do a skill move (fake, change direction and change speed)"
+      ]
+    },
+    {
+      "title": "Important Technical And Tactical Points To Emphasize",
+      "scope": "evergreen",
+      "points": [
+        "When receiving or passing with the inside of the foot make sure your toes are pointing up (so the ball does not pop up or roll over your foot)",
+        "When receiving or passing with the outside of the foot point your toe down (same reason…)",
+        "When passing, push through the ball and lift the kicking leg up – do not jab the kicking foot down on the ground.",
+        "Before receiving, turn your body and open yourself up to face the field of play, and to face your team mates, so you can pass before you are under pressure. This gives you more time and space.",
+        "After passing move to space to give your team mates passing options.",
+        "Players off the ball must provide passing options on the right side, left side and middle (split pass).",
+        "Emphasize the cycle of possession: Good first touch (one that creates time and space); escape the pressure (to create time and space to pass); accurate pass (to the player with the most time and space)",
+        "The cue to make a run is when the player with the ball takes a preparation touch and looks up. The cue to pass is when the runner starts the run. So the run comes first. Otherwise always pass to the feet. When passing to the runner pass so the ball meets the feet as well…",
+        "Attackers must always be aware what options the defenders are taking away, and what options they are giving you. Take what they give you.",
+        "Start making these coaching points with the warmup exercises, and carry them over throughout the progression."
+      ]
+    }
+  ],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "weekOf",
+      "message": "Email gives an explicit unambiguous range ('Sept. 28-Oct 1') with no year. Sept 28, 2026 is a Monday and Oct 1 is a Thursday, matching this team's standing Monday/Wednesday schedule and today's date (2026-09-28). weekOf = 2026-09-28; sessions[0].date = 2026-09-28 (Monday), sessions[1].date = 2026-09-30 (Wednesday)."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "3 new drill records created from PDFs this week: '1v1-2-targets', 'rondo-5-4v1-central-target', '4v1-passing-through-triangles'."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[1].items[1].drillId",
+      "message": "Email line '4v2 Triangles' was matched to drill '4v1-passing-through-triangles' (PDF title '4V1 Passing Through Triangles', filename same). Not a prefix match -- matched on 'Triangles' plus the PDF's own SETUP line reading 'Variation: 4 vs 2', which corroborates '4v2' refers to that drill's stated variation. It's the only triangles PDF attached, but verify by hand."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "'2v2+1+1 Game 2 Large Goals' is referenced in both sessions but no PDF was attached this week. Matched to existing drill record '2v2-1-1-game-2-large-goals' (firstSeenWeek 2026-08-31) and reused as-is -- no re-transcription needed."
+    },
+    {
+      "level": "warn",
+      "field": "drills/3v1-possession-game",
+      "message": "This week's re-sent '3v1 Possession Game.pdf' has a coaching-points paragraph that is a superset of the existing canonical record (firstSeenWeek 2026-08-31): it adds three leading points ('Focus on all four moments of the cycle of possession: 1: Get open, 2: Good 1st touch, 3: Touch to the side (or turn and face away), 4: Accurate pass.', 'Give your team mate a big angle to receive the pass.', 'Take a small 1st touch, away from the defender.') not present in the stored record. Setup and instructions are identical; the diagram is byte-identical (242235 bytes, verified via re-extraction). This looks like the earlier extraction dropped the opening of the coaching-points paragraph rather than the PDF changing, but I did not overwrite the canonical record on a guess -- left 'data/drills/3v1-possession-game.json' unchanged. Recommend Jeff compare against 'archive/2026-08-31/3v1 Possession Game.pdf' and update the canonical record if the omission is confirmed."
+    },
+    {
+      "level": "warn",
+      "field": "drills/2v2-2-target-players",
+      "message": "This week's re-sent '2v2 + 2 Target Players.pdf' has instructions and coaching points that differ substantively from the existing canonical record (firstSeenWeek 2026-08-31) -- not just a superset. Missing from this week's PDF: 'and passing to the opposite target player without losing possession' (instructions), and several coaching points ('Escape the pressure by dribbling to the side', 'Look up and scan the field...', 'Move off the ball to get open', 'When you play to the target both inside players must move wide...'). This week's PDF instead has 'Execute the cycle of possession' and slightly different wording elsewhere. The diagram is byte-identical (239362 bytes, verified via re-extraction) so only the text differs. Left 'data/drills/2v2-2-target-players.json' unchanged rather than guess which version is authoritative -- recommend Jeff review both PDFs side by side."
+    },
+    {
+      "level": "warn",
+      "field": "attachments",
+      "message": "'Manipulating Practice Variables.pdf' (Tom Turner, OYSAN, 8-page article on coaching philosophy) has no setup/instructions/coaching-points structure -- it isn't a drill, same as when it was attached in week 2026-08-17. No drill record was created for it. The PDF is archived for provenance and referenced in logistics instead."
+    },
+    {
+      "level": "info",
+      "field": "seasonFocus",
+      "message": "This email has no 'main focus this season...' boilerplate paragraph (present in weeks 2026-09-07 and 2026-09-21). Left seasonFocus null rather than reusing older text."
+    },
+    {
+      "level": "info",
+      "field": "logistics",
+      "message": "Omitted the email's opening 'Study each exercise carefully. Let me know if you have any questions.' from logistics as non-actionable boilerplate, consistent with how similar generic sentences were dropped in prior weeks (e.g. 2026-09-21's 'Study each exercise carefully, reading all the instructions and diagrams.')."
+    }
+  ]
+}

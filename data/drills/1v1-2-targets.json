@@ -1,0 +1,40 @@
+{
+  "id": "1v1-2-targets",
+  "title": "1V1+2 Targets",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-28/1V1+2 Targets.pdf",
+    "originalFilename": "1V1+2 Targets.pdf",
+    "firstSeenWeek": "2026-09-28"
+  },
+  "diagram": {
+    "path": "data/diagrams/1v1-2-targets.png",
+    "width": 586,
+    "height": 440,
+    "bytes": 125127,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "15X15 or larger area, two teams of 3 players per square.",
+  "instructions": [
+    "Play 1v1 in the middle.",
+    "Pass to targets on each side and receive the ball back.",
+    "Player in possesion scores when passing to one side then passing to the other side and receiving the ball back.",
+    "2 points wins, and switch the two players in the middle.",
+    "THE DEFENDER MUST GO AFTER THE BALL to put pressure on the outside target players (defenders can go outside the square).",
+    "But target players are not allowed inside the square."
+  ],
+  "coachingPoints": [
+    "Pop away to get open (early, good angle and distance of support).",
+    "Good 1st touch (small touch, turn).",
+    "ESCAPE THE PRESSURE by dribbling side to side, and shield if necessary.",
+    "Accurate pass."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "15x15 yards or larger",
+    "formation": "1v1 + 2 target players",
+    "tags": ["possession", "1v1", "target players"]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "4v1-passing-through-triangles",
+  "title": "4V1 Passing Through Triangles",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-28/4V1 Passing Through Triangles.pdf",
+    "originalFilename": "4V1 Passing Through Triangles.pdf",
+    "firstSeenWeek": "2026-09-28"
+  },
+  "diagram": {
+    "path": "data/diagrams/4v1-passing-through-triangles.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 24408,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "12X25 yard area. 4 attackers vs 1 defender. Variation: 4 vs 2",
+  "instructions": [
+    "The attackers possess the ball and score by passing through the triangles.",
+    "The defender scores by dribbling through the triangles."
+  ],
+  "coachingPoints": [
+    "Apply the cycle of possession to keep the ball.",
+    "Three attackers should surround one triangle to attract the defender.",
+    "Then they should pass to the far target player and quickly run to provide short passing options.",
+    "The faster you play the far target player the more time and space you will have to score through the triangle.",
+    "Don't force the play when the defender is near."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "12x25 yards",
+    "formation": "4v1 (variation 4v2)",
+    "tags": ["possession", "passing", "triangles"]
+  }
+}

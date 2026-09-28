@@ -1,0 +1,41 @@
+{
+  "id": "rondo-5-4v1-central-target",
+  "title": "Rondo 5 - 4v1 Central Target",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-09-28/Rondo 5 - 4v1 Central Target.pdf",
+    "originalFilename": "Rondo 5 - 4v1 Central Target.pdf",
+    "firstSeenWeek": "2026-09-28"
+  },
+  "diagram": {
+    "path": "data/diagrams/rondo-5-4v1-central-target.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 25796,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "15X15 yard square with a 4X4 yard square in the middle. 4 attackers vs 1 defender. One attacker is the target player in the central square.",
+  "instructions": [
+    "The three attackers on the outside possess the ball and score by passing to the central target player.",
+    "They get a point when the target player passes back to an outside player.",
+    "The defender scores by also passing to the target player and receiving it back (give-&-go).",
+    "The defender is never allowed inside the small square.",
+    "Rotate defender and target player when attackers or defender gets 3 or 4 points."
+  ],
+  "coachingPoints": [
+    "Get open by providing your teammate a big angle of support.",
+    "Good first touch.",
+    "Take a touch to the side to create time and space to pass, or turn and face away then take a touch to the side.",
+    "Accurate pass.",
+    "Don't rush to pass to the target - change the point of attack quickly so you have a safe pass to the target.",
+    "If the defender wins the ball all attackers must rush to win the ball back."
+  ],
+  "derived": {
+    "equipment": ["cones"],
+    "ageNotes": null,
+    "areaSize": "15x15 yards with 4x4 central square",
+    "formation": "4v1 rondo with central target",
+    "tags": ["possession", "rondo", "target player"]
+  }
+}
