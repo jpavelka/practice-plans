@@ -132,11 +132,14 @@ def extract_flate_xobject(raw: bytes) -> dict | None:
         is_rgb = b"/DeviceRGB" in blob
         if not is_rgb and b"/DeviceGray" not in blob:
             continue  # unsupported colorspace (indexed, CMYK, ...)
-        candidates.append((is_rgb, w * h, w, h, int(length.group(1)), stream, is_rgb))
+        predictor = re.search(rb"/Predictor\s+(\d+)", blob)
+        predictor = int(predictor.group(1)) if predictor else 1
+        candidates.append((is_rgb, w * h, w, h, int(length.group(1)), stream, predictor))
 
     if not candidates:
         return None
-    is_rgb, _, w, h, length, stream, _ = max(candidates, key=lambda c: (c[0], c[1]))
+    best = max(candidates, key=lambda c: (c[0], c[1]))
+    is_rgb, _, w, h, length, stream, predictor = best
 
     p = stream + len(b"stream")
     if raw[p : p + 2] == b"\r\n":
@@ -144,6 +147,11 @@ def extract_flate_xobject(raw: bytes) -> dict | None:
     elif raw[p : p + 1] in (b"\n", b"\r"):
         p += 1
     data = zlib.decompress(raw[p : p + length])
+    channels = 3 if is_rgb else 1
+    if predictor >= 10:
+        # PNG predictors prefix every row with a filter-type byte; without
+        # undoing them the rows skew by one byte each and look edge-filtered.
+        data = _png_unfilter(data, h, w * channels, channels)
     if not is_rgb:
         data = b"".join(bytes((b, b, b)) for b in data)
     return {"width": w, "height": h, "rgb": data}

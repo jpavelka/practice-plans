@@ -1,0 +1,50 @@
+{
+  "id": "2v1-three-zone-gauntlet-mauro-nobre",
+  "title": "2v1 Three Zone Gauntlet - Mauro Nobre",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-10-12/2v1 Three Zone Gauntlet - Mauro Nobre.pdf",
+    "originalFilename": "2v1 Three Zone Gauntlet - Mauro Nobre.pdf",
+    "firstSeenWeek": "2026-10-12"
+  },
+  "diagram": {
+    "path": "data/diagrams/2v1-three-zone-gauntlet-mauro-nobre.jpg",
+    "width": 800,
+    "height": 600,
+    "bytes": 28405,
+    "extractedFrom": "page-1 DCTDecode XObject",
+    "needsDownscale": false
+  },
+  "setup": "Players combine 2v1 to beat 1 defender at a time and reach the end zone. 10x30 or 12x40 area, divided into three equal zones. A defender is positioned on the central cone at the back line of each zone. Pairs of attackers positioned in two lines at the starting end. Play starts with a pass from one attacker to the other.",
+  "instructions": [
+    "Attackers attempt to beat each defender and make it to the end zone for a point.",
+    "Each defender can only defend the square in front.",
+    "Defenders must start on the back line, and can only move forward once the ball has entered the square. (Easier variation: the defender must stay on the line).",
+    "The defender scores by winning the ball and dribbling past the front line of the square.",
+    "The next group of attackers starts when the previous attackers enter the third square, or a defender scores)."
+  ],
+  "coachingPoints": [
+    "1st attacker must dribble on the left or the right of the square to create space on the other side for the 2nd attacker.",
+    "Dribble straight up to make the defender commit.",
+    "Be aware what option the defender is taking away, and what option the defender is giving you: the forward dribble or the pass (the defender should take away the forward dribble, but sometimes they cheat to the side to cut off the pass. If that happens push the ball forward and sprint into space).",
+    "Once you get to the next square repeat this procedure.",
+    "Dribble with small quick touches using your shoelaces.",
+    "Keep your eyes up.",
+    "If the defender takes away the forward dribble pass early - do not dribble into the defender.",
+    "Accurate passes, good first touch."
+  ],
+  "derived": {
+    "equipment": [
+      "cones",
+      "balls"
+    ],
+    "ageNotes": null,
+    "areaSize": "10x30 or 12x40 yards, three equal zones",
+    "formation": "2v1 (three consecutive zones)",
+    "tags": [
+      "combination play",
+      "gauntlet",
+      "2v1"
+    ]
+  }
+}

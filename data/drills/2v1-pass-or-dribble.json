@@ -1,0 +1,45 @@
+{
+  "id": "2v1-pass-or-dribble",
+  "title": "2V1 Pass Or Dribble",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-10-12/2V1 Pass Or Dribble.pdf",
+    "originalFilename": "2V1 Pass Or Dribble.pdf",
+    "firstSeenWeek": "2026-10-12"
+  },
+  "diagram": {
+    "path": "data/diagrams/2v1-pass-or-dribble.png",
+    "width": 561,
+    "height": 421,
+    "bytes": 150381,
+    "extractedFrom": "page-1 content-stream inline-image mosaic (rendered)",
+    "needsDownscale": false
+  },
+  "setup": "10X20 yard area. Two teams on opposite ends.",
+  "instructions": [
+    "The team on attack starts with a pass to the feet, dribble diagonally, and overlap.",
+    "Attackers score by dribbling or passing through the end line.",
+    "Defender scores by winning the ball and dribbling through the opposite end line.",
+    "Keep score, and have the teams switch sides."
+  ],
+  "coachingPoints": [
+    "Correct technical execution on the pass, 1st touch, and dribble.",
+    "Dribble diagonally to create time and space for the overlapping man.",
+    "Proper angle of support depending on how much pressure is on the ball.",
+    "Dribbler must decide whether to dribble or pass: be aware what option the defender is taking away, and what option he is giving you.",
+    "Make quick decisions."
+  ],
+  "derived": {
+    "equipment": [
+      "balls"
+    ],
+    "ageNotes": null,
+    "areaSize": "10x20 yards",
+    "formation": "2v1",
+    "tags": [
+      "combination play",
+      "overlap",
+      "game"
+    ]
+  }
+}

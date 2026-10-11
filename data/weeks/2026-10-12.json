@@ -1,0 +1,165 @@
+{
+  "id": "2026-10-12",
+  "weekOf": "2026-10-12",
+  "weekOfRaw": null,
+  "theme": "This week we focus on combination play to finish.",
+  "goal": "This week we focus on combination play to finish. Repeat as needed, focus on the more basic exercises on the first day, and on the more advanced ones on the 2nd day.",
+  "seasonFocus": null,
+  "sourceEmail": {
+    "file": "archive/2026-10-12/body.txt",
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 5
+  },
+  "sessions": [
+    {
+      "label": "Monday/Tuesday/Wednesday/Thursday",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "date": "2026-10-12",
+      "items": [
+        {
+          "drillId": "give-and-go-progression-1-mauro-nobre",
+          "asWritten": "Give & Go Progression 1 – Activity 1",
+          "note": "Activity 1"
+        },
+        {
+          "drillId": "2v1-pass-or-dribble",
+          "asWritten": "2V1 Pass Or Dribble",
+          "note": null
+        },
+        {
+          "drillId": "2v1-three-zone-gauntlet-mauro-nobre",
+          "asWritten": "2v1 Three Zone Gauntlet",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2V2+1+1… 4 Large Goals",
+          "note": null
+        }
+      ]
+    },
+    {
+      "label": "Monday/Tuesday/Wednesday/Thursday (repeat)",
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "date": "2026-10-14",
+      "items": [
+        {
+          "drillId": "give-and-go-progression-1-mauro-nobre",
+          "asWritten": "Give & Go Progression 1 – Activity 1",
+          "note": "Activity 1"
+        },
+        {
+          "drillId": "2v1-pass-or-dribble",
+          "asWritten": "2V1 Pass Or Dribble",
+          "note": null
+        },
+        {
+          "drillId": "2v1-three-zone-gauntlet-mauro-nobre",
+          "asWritten": "2v1 Three Zone Gauntlet",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2V2+1+1… 4 Large Goals",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "logistics": [
+    "Repeat as needed, focus on the more basic exercises on the first day, and on the more advanced ones on the 2nd day.",
+    "Good luck coaches!"
+  ],
+  "coachingNotes": [
+    {
+      "title": "Important technical points to emphasize",
+      "scope": "evergreen",
+      "points": [
+        "When receiving or passing with the inside of the foot make sure your toes are pointing up (so the ball does not pop up or roll over your foot)",
+        "When receiving or passing with the outside of the foot point your toe down (same reason…)",
+        "When passing, push through the ball and lift the kicking leg up – do not jab the kicking foot down on the ground."
+      ]
+    },
+    {
+      "title": "Important tactical points to emphasize",
+      "scope": "week",
+      "points": [
+        "AWARENESS: Watch the defenders – see what options they are taking away, and what options they are giving you. Take what they give you!",
+        "OPTIONS: Give-&-Go, lateral pass, through pass (forward), overlapping runs, backpass to through pass.",
+        "Dribble directly at the defender to make them commit to the ball, creating time and space for the supporting attacker.",
+        "The supporting attacker must support at a 90 degree angle (ball to defender to supporting player), and face the space for the return pass.",
+        "The initial pass must be to the feet. The return pass must be to space.",
+        "Communicate when making the initial pass: say “one-two”",
+        "After the initial pass you must sprint forward, making a blind side run.",
+        "Attackers must always be aware what options the defenders are taking away, and what options they are giving you. Take what they give you. In these exercises the basic choice is between the forward dribble or the pass. Other options might be the forward through pass and diagonal blind side run – it all depends on the position of the defenders.",
+        "The defenders can take several options away, but they can never take all the options away. There is always a solution. Attackers must think fast and be creative to find the combination plays that the defenders left open. There is always a solution. Can you find it fast enough, and execute it accurately?",
+        "Start making these coaching points with the warmup exercises, and carry them over throughout the progression."
+      ]
+    }
+  ],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "warn",
+      "field": "weekOf",
+      "message": "Email body has no date or range (no 'week of ...'). weekOf 2026-10-12 is inferred from the delivery date (attachments dated 2026-10-11, a Sunday) and the sequential Monday pattern after 2026-10-05 -- not stated in the source, so weekOfRaw is null. Please confirm."
+    },
+    {
+      "level": "info",
+      "field": "sessions",
+      "message": "Email has ONE slot header 'MONDAY/TUESDAY/WEDNESDAY/THURSDAY' with a single drill list (differs from earlier weeks' two slots). Per Jeff, Wednesday's practice repeats Monday's drills, so sessions[1] is a copy of sessions[0] dated 2026-10-14. Its label gets ' (repeat)' because the validator rejects duplicate labels; days[] is kept verbatim (all four), so validate.py warns that 2026-10-14 is a Wednesday but days[0] is Monday."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[0].items[0].drillId",
+      "message": "Email line 'Give & Go Progression 1 – Activity 1' matched to drill 'give-and-go-progression-1-mauro-nobre' (PDF title 'Give And Go Progression 1 - Mauro Nobre'). '&' vs 'And' defeats the normal prefix match; it is the only Give-and-Go PDF attached, so confidence is reasonable but verify."
+    },
+    {
+      "level": "warn",
+      "field": "drills/give-and-go-progression-1-mauro-nobre",
+      "message": "The PDF is a 3-activity session plan; the email references only Activity 1, so only Activity #1 (set up / instructions / coaching points) was transcribed into the drill record. Activities #2 (2 V 1 Give And Go) and #3 (20x20 grid with goalkeepers) are NOT transcribed -- they remain in the archived PDF if wanted."
+    },
+    {
+      "level": "info",
+      "field": "drills/give-and-go-progression-1-mauro-nobre/diagram",
+      "message": "Diagram extraction first produced a corrupted image: extract_diagrams.py ignored the PDF's PNG predictor (/Predictor 15) on the single Flate image, so rows were skewed. Fixed the extractor (tools/extract_diagrams.py, extract_flate_xobject). The page holds three diagrams (one per activity); the drill's diagram is cropped to the Activity #1 panel only, matching the transcribed text."
+    },
+    {
+      "level": "warn",
+      "field": "sessions[0].items[3].drillId",
+      "message": "Email line '2V2+1+1… 4 Large Goals' matched to existing drill '2v2-1-1-game-2-large-goals' (PDF title '2v2+1+1... Game 2 Large Goals'). Only the '2v2+1+1...' prefix matches; '4' vs 'Game 2' differs and is probably the director's typo (the drill uses 2 large goals). The re-sent PDF is byte-identical to archive/2026-08-31, so no re-transcription."
+    },
+    {
+      "level": "info",
+      "field": "attachments",
+      "message": "Attachments arrived as a single attachments.zip containing 5 PDFs; '2V1 Pass Or Dribble.pdf' and '2V1 Pass Or Dribble_1.pdf' are byte-identical (same md5) and were treated as one drill."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "3 new drill records: '2v1-pass-or-dribble', '2v1-three-zone-gauntlet-mauro-nobre', 'give-and-go-progression-1-mauro-nobre'. 1 reused: '2v2-1-1-game-2-large-goals'."
+    },
+    {
+      "level": "info",
+      "field": "drills/2v1-three-zone-gauntlet-mauro-nobre",
+      "message": "Source text is transcribed verbatim, including a stray ')' at the end of the last instruction ('...or a defender scores).') and 'dribble pass' wording in the last coaching points. The PDF's one-line intro ('Players combine 2v1 to beat 1 defender at a time and reach the end zone.') has no field of its own and was placed at the start of 'setup'."
+    },
+    {
+      "level": "info",
+      "field": "coachingNotes",
+      "message": "Technical points tagged evergreen (repeat of prior weeks' points); tactical points tagged week as they are tied to this week's combination-play theme, though the last few are generic."
+    }
+  ]
+}

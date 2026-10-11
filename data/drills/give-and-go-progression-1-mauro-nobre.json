@@ -1,0 +1,48 @@
+{
+  "id": "give-and-go-progression-1-mauro-nobre",
+  "title": "Give And Go Progression 1 - Mauro Nobre",
+  "source": {
+    "type": "pdf",
+    "file": "archive/2026-10-12/Give And Go Progression 1 - Mauro Nobre.pdf",
+    "originalFilename": "Give And Go Progression 1 - Mauro Nobre.pdf",
+    "firstSeenWeek": "2026-10-12"
+  },
+  "diagram": {
+    "path": "data/diagrams/give-and-go-progression-1-mauro-nobre.png",
+    "width": 584,
+    "height": 460,
+    "bytes": 24734,
+    "extractedFrom": "page-1 FlateDecode /Image XObject (raw pixels, re-packed as PNG), cropped to the Activity #1 diagram",
+    "needsDownscale": false
+  },
+  "setup": "Give And Go Pattern With Flags Or Cones Standing In For A Defender. Cones are set 12 yards wide by 20 yards long. Two lines of players as shown. Players in line A each with a ball.",
+  "instructions": [
+    "Player from line A dribbles straight at defender (flag or cone), then passes to feet to player B, says \"one-two\" and sprints forward.",
+    "Player B returns the pass with one touch into forward space then overlaps wide.",
+    "Player A receives the ball behind the defender and plays ball to overlapping B player.",
+    "Rotation: A goes to B, B goes to A."
+  ],
+  "coachingPoints": [
+    "Dribble straight at defender to make him commit.",
+    "Pass to the feet.",
+    "Communicate: \"one-two\".",
+    "Accelerate into space.",
+    "Good first touch.",
+    "Player B: Face in so you can see the forward space and pass one touch."
+  ],
+  "derived": {
+    "equipment": [
+      "cones",
+      "flags",
+      "balls"
+    ],
+    "ageNotes": null,
+    "areaSize": "12x20 yards",
+    "formation": "give and go pattern, passive defender",
+    "tags": [
+      "combination play",
+      "give and go",
+      "progression"
+    ]
+  }
+}
