@@ -576,7 +576,14 @@
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       return r.json();
     })
-    .then((d) => { DATA = d; route(); })
+    .then((d) => {
+      // Display-only: data keeps the verbatim PDF title; the director's byline
+      // is just noise in a drill name on a phone.
+      for (const dr of Object.values(d.drills)) {
+        dr.title = dr.title.replace(/\s*[-\u2013\u2014]\s*Mauro Nobre\s*$/i, "");
+      }
+      DATA = d; route();
+    })
     .catch((err) => {
       render(
         el("h2", { text: "Couldn’t load the plan" }),
