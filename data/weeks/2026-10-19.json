@@ -1,0 +1,90 @@
+{
+  "id": "2026-10-19",
+  "weekOf": "2026-10-19",
+  "weekOfRaw": null,
+  "theme": null,
+  "goal": null,
+  "seasonFocus": null,
+  "sourceEmail": {
+    "file": null,
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 0
+  },
+  "sessions": [
+    {
+      "label": "Monday",
+      "days": [
+        "Monday"
+      ],
+      "date": "2026-10-19",
+      "items": [
+        {
+          "drillId": "basic-ball-skills",
+          "asWritten": "Basic Ball Skills",
+          "note": null
+        },
+        {
+          "drillId": "dribbling-multiple-gates",
+          "asWritten": "Dribbling - Multiple Gates",
+          "note": null
+        },
+        {
+          "drillId": "1v1-end-line-game",
+          "asWritten": "1v1 End Line Game",
+          "note": null
+        },
+        {
+          "drillId": "2v2-game",
+          "asWritten": "2V2 Game",
+          "note": null
+        }
+      ]
+    },
+    {
+      "label": "Wednesday",
+      "days": [
+        "Wednesday"
+      ],
+      "date": "2026-10-21",
+      "items": [
+        {
+          "drillId": "box-passing",
+          "asWritten": "Box passing",
+          "note": null
+        },
+        {
+          "drillId": "3-1-v-1-pass-and-support",
+          "asWritten": "3+1 V 1 - Pass And Support",
+          "note": null
+        },
+        {
+          "drillId": "2v2-box-to-box-faceoff",
+          "asWritten": "2v2 Box to box faceoff",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2v2+1+1... Game 2 Large Goals",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "logistics": [],
+  "coachingNotes": [],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "sourceEmail",
+      "message": "Added by hand at Jeff's request, not extracted from a director email: no email or archive exists for this week. Sessions: Monday 2026-10-19 (four reused drills) and Wednesday 2026-10-21."
+    },
+    {
+      "level": "info",
+      "field": "drills",
+      "message": "New placeholder drills 'box-passing' and '2v2-box-to-box-faceoff' were created by hand at Jeff's request with no description (he'll fill in details himself); their setup/instructions/coachingPoints are stub text, not transcribed. 'Not yet described' strings exist only because validate.py requires non-empty fields."
+    }
+  ]
+}

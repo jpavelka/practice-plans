@@ -1,0 +1,25 @@
+{
+  "id": "box-passing",
+  "title": "Box passing",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-19"
+  },
+  "diagram": null,
+  "setup": "Not yet described - added by hand as a placeholder.",
+  "instructions": [
+    "Not yet described."
+  ],
+  "coachingPoints": [
+    "Not yet described."
+  ],
+  "derived": {
+    "equipment": [],
+    "ageNotes": null,
+    "areaSize": null,
+    "formation": null,
+    "tags": []
+  }
+}
