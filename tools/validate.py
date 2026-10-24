@@ -9,6 +9,7 @@ data/weeks and data/diagrams. Run after every extraction:
 Exit code 0 = clean, 1 = errors found. Warnings alone do not fail the run.
 """
 import json
+import re
 import sys
 import unicodedata
 from datetime import date
@@ -84,6 +85,17 @@ for f in sorted(DRILLS.glob("*.json")):
         err(f"{rel}: source.type must be 'pdf' or 'email', got {src.get('type')!r}")
     if src.get("file") and not (ROOT / src["file"]).exists():
         warn(f"{rel}: source file missing on disk - {src['file']}")
+
+    vid = d.get("video")
+    if vid is not None:
+        if not re.fullmatch(r"[\w-]{11}", str(vid.get("id", ""))):
+            err(f"{rel}: video.id is not an 11-character YouTube id")
+        start, end = vid.get("start"), vid.get("end")
+        for k, x in (("start", start), ("end", end)):
+            if x is not None and (not isinstance(x, int) or x < 0):
+                err(f"{rel}: video.{k} must be whole seconds >= 0")
+        if isinstance(start, int) and isinstance(end, int) and end <= start:
+            err(f"{rel}: video.end must be after video.start")
 
     dia = d.get("diagram")
     if dia is None:

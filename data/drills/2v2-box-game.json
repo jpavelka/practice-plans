@@ -1,0 +1,43 @@
+{
+  "id": "2v2-box-game",
+  "title": "2v2 Box game",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-19"
+  },
+  "diagram": null,
+  "setup": "Two squares set apart from each other, a team of two on each side. One ball. Can also be played with just two people.",
+  "instructions": [
+    "Hit the ball over to the other team's square, keeping it below knee height.",
+    "Whoever the ball comes to takes a touch and kills it for their partner.",
+    "Their partner then does the same: hits the ball over to the other square.",
+    "A team loses the point if they cannot get the ball into the opposite square, their touch escapes the square, or they mess up.",
+    "Keep playing to 7, 11, or whatever score you choose."
+  ],
+  "coachingPoints": [
+    "Keep the ball below knee height.",
+    "Take a touch that sets up your partner.",
+    "You constantly receive a difficult ball and work on your passing, with a game and team aspect added."
+  ],
+  "derived": {
+    "equipment": [
+      "ball"
+    ],
+    "ageNotes": null,
+    "areaSize": null,
+    "formation": "2v2",
+    "tags": [
+      "first touch",
+      "passing",
+      "game"
+    ]
+  },
+  "video": {
+    "provider": "youtube",
+    "id": "VqOnafc-Ufs",
+    "start": 261,
+    "end": 354
+  }
+}

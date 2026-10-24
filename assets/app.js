@@ -249,6 +249,23 @@
     render(header, items, unmatched);
   }
 
+  /** A YouTube clip, played in place between video.start and video.end (seconds).
+   *  The id is checked against YouTube's id alphabet before it goes in a URL. */
+  function videoEmbed(d) {
+    const v = d.video;
+    if (!v || !/^[\w-]{11}$/.test(v.id)) return null;
+    const q = new URLSearchParams({ rel: "0", playsinline: "1" });
+    if (Number.isFinite(v.start)) q.set("start", v.start);
+    if (Number.isFinite(v.end)) q.set("end", v.end);
+    return el("div", { class: "video" },
+      el("iframe", {
+        src: `https://www.youtube-nocookie.com/embed/${v.id}?${q}`,
+        title: `Video: ${d.title}`, loading: "lazy", allowfullscreen: "",
+        allow: "picture-in-picture; encrypted-media",
+        referrerpolicy: "strict-origin-when-cross-origin",
+      }));
+  }
+
   /** ctx: {w, session, sessionIdx, pos} when opened from a plan, else null. */
   function viewDrill(id, ctx) {
     const d = drill(id);
@@ -281,6 +298,7 @@
           width: d.diagram.width, height: d.diagram.height,
           onclick: () => openLightbox(d.diagram.path, d.title),
         })
+      : d.video ? videoEmbed(d)
       : el("p", { class: "no-diagram",
                   text: "No diagram — this drill was described in the email body." });
 

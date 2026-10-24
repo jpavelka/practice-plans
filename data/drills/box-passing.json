@@ -8,18 +8,35 @@
     "firstSeenWeek": "2026-10-19"
   },
   "diagram": null,
-  "setup": "Not yet described - added by hand as a placeholder.",
+  "setup": "Two players face each other across a small square, about 5 to 10 yards apart. One ball.",
   "instructions": [
-    "Not yet described."
+    "Pass the ball back and forth with your partner, one touch or two.",
+    "On a two-touch pass, take your first touch at an angle with the correct weight, then pass back to your partner.",
+    "Mix it up: one-time passes back to your partner, inside of the foot across the body, opening up to use the inside of the foot, and the outside of the foot to play out the side of the square."
   ],
   "coachingPoints": [
-    "Not yet described."
+    "About 80% of the game is one or two touches with 5 to 10 yard passes, so this is a staple drill.",
+    "Take your touch at an angle with the right weight.",
+    "Put the right weight on every pass back to your partner.",
+    "Keep the ball on the ground and reduce bobbles."
   ],
   "derived": {
-    "equipment": [],
+    "equipment": [
+      "ball"
+    ],
     "ageNotes": null,
-    "areaSize": null,
+    "areaSize": "5-10 yards between partners",
     "formation": null,
-    "tags": []
+    "tags": [
+      "first touch",
+      "passing",
+      "warm-up"
+    ]
+  },
+  "video": {
+    "provider": "youtube",
+    "id": "VqOnafc-Ufs",
+    "start": 19,
+    "end": 84
   }
 }

@@ -60,8 +60,8 @@
           "note": null
         },
         {
-          "drillId": "2v2-box-to-box-faceoff",
-          "asWritten": "2v2 Box to box faceoff",
+          "drillId": "2v2-box-game",
+          "asWritten": "2v2 Box game",
           "note": null
         },
         {
@@ -84,7 +84,7 @@
     {
       "level": "info",
       "field": "drills",
-      "message": "New placeholder drills 'box-passing' and '2v2-box-to-box-faceoff' were created by hand at Jeff's request with no description (he'll fill in details himself); their setup/instructions/coachingPoints are stub text, not transcribed. 'Not yet described' strings exist only because validate.py requires non-empty fields."
+      "message": "New drills 'box-passing' and '2v2-box-game' (originally written in the email as '2v2 Box to box faceoff'; renamed by Jeff) were added by hand with no PDF. Their setup/instructions/coachingPoints were written from the YouTube transcript (https://www.youtube.com/watch?v=VqOnafc-Ufs), not transcribed verbatim, and the video is embedded at the matching timestamps."
     }
   ]
 }
