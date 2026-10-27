@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-26",
+  "weekOf": "2026-10-26",
+  "weekOfRaw": null,
+  "theme": null,
+  "goal": null,
+  "seasonFocus": null,
+  "sourceEmail": {
+    "file": null,
+    "from": null,
+    "subject": null,
+    "receivedAt": null,
+    "attachmentCount": 0
+  },
+  "sessions": [
+    {
+      "label": "Monday",
+      "days": [
+        "Monday"
+      ],
+      "date": "2026-10-26",
+      "items": [
+        {
+          "drillId": "pass-and-move-one-two",
+          "asWritten": "Pass and Move - One-Two",
+          "note": null
+        },
+        {
+          "drillId": "2v1-pass-or-dribble",
+          "asWritten": "2V1 Pass Or Dribble",
+          "note": null
+        },
+        {
+          "drillId": "2v1-three-zone-gauntlet-mauro-nobre",
+          "asWritten": "2v1 Three Zone Gauntlet",
+          "note": null
+        },
+        {
+          "drillId": "2v2-1-1-game-2-large-goals",
+          "asWritten": "2V2+1+1… 4 Large Goals",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "logistics": [],
+  "coachingNotes": [],
+  "unmatchedReferences": [],
+  "extractionFlags": [
+    {
+      "level": "info",
+      "field": "sourceEmail",
+      "message": "Added by hand at Jeff's request, not extracted from a director email: no email or archive exists for this week. Single Monday 2026-10-26 session."
+    },
+    {
+      "level": "info",
+      "field": "drills/pass-and-move-one-two",
+      "message": "New drill written from the YouTube transcript (https://www.youtube.com/watch?v=EDJKPs2Qcag), not transcribed verbatim; the video is embedded at 0:56-1:36. Title is a made-up name. The clip starts at the one-two progression, so the basic pass-and-move variation is not described."
+    },
+    {
+      "level": "info",
+      "field": "sessions[0].items",
+      "message": "Items 2-4 are the last three drills of the Wednesday 2026-10-14 session, in their original order."
+    }
+  ]
+}

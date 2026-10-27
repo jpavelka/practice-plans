@@ -1,0 +1,45 @@
+{
+  "id": "pass-and-move-one-two",
+  "title": "Pass and Move - One-Two",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-26"
+  },
+  "diagram": null,
+  "setup": "Cones set up in any shape you like (a rectangle in the video), about 10 yards apart, with one more cone than there are players (e.g. five players, six cones). One player on each cone and one cone free. One ball. Suited to U9 through U12.",
+  "instructions": [
+    "Play the ball into a teammate standing on a cone.",
+    "That teammate plays it straight back to you (a one-two, or wall pass).",
+    "Find a pass to a teammate, then run to the free cone.",
+    "Go to the free cone, not the cone you just left."
+  ],
+  "coachingPoints": [
+    "Be aware of what is going on around you.",
+    "Make sure you go to the free cone and not the cone you previously left.",
+    "Encourage communication, accurate passing and speed of play.",
+    "Set it up any way that suits your team best."
+  ],
+  "derived": {
+    "equipment": [
+      "ball",
+      "cones"
+    ],
+    "ageNotes": "U9-U12",
+    "areaSize": "cones about 10 yards apart",
+    "formation": null,
+    "tags": [
+      "passing",
+      "movement",
+      "one-two",
+      "warm-up"
+    ]
+  },
+  "video": {
+    "provider": "youtube",
+    "id": "EDJKPs2Qcag",
+    "start": 56,
+    "end": 96
+  }
+}
