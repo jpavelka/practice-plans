@@ -1,0 +1,33 @@
+{
+  "id": "3v2-with-pass-minimum",
+  "title": "3v2 with pass minimum",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-26"
+  },
+  "diagram": null,
+  "setup": "Two small goals 20 yards apart. Three lines on one side, two lines on the other.",
+  "instructions": [
+    "Three-player side starts with the ball. The must complete some number (3-5, coaches choice) of passes before scoring. Defense may score at any time.",
+    "Minimum pass number applies any time the three-player team gains possession."
+  ],
+  "coachingPoints": [
+    "Complete the minimum number of passes (3-5, coaches choice) before the three-player team scores."
+  ],
+  "derived": {
+    "equipment": [
+      "ball",
+      "small goals"
+    ],
+    "ageNotes": null,
+    "areaSize": "goals 20 yards apart",
+    "formation": "3v2",
+    "tags": [
+      "passing",
+      "possession",
+      "game"
+    ]
+  }
+}

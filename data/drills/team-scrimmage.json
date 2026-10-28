@@ -1,0 +1,30 @@
+{
+  "id": "team-scrimmage",
+  "title": "Team scrimmage",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-26"
+  },
+  "diagram": null,
+  "setup": "Team scrimmage.",
+  "instructions": [
+    "Play a team scrimmage."
+  ],
+  "coachingPoints": [
+    "Play a team scrimmage."
+  ],
+  "derived": {
+    "equipment": [
+      "ball",
+      "goals"
+    ],
+    "ageNotes": null,
+    "areaSize": null,
+    "formation": null,
+    "tags": [
+      "game"
+    ]
+  }
+}

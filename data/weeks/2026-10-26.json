@@ -41,6 +41,35 @@
           "note": null
         }
       ]
+    },
+    {
+      "label": "Wednesday",
+      "days": [
+        "Wednesday"
+      ],
+      "date": "2026-10-28",
+      "items": [
+        {
+          "drillId": "scan-and-turn",
+          "asWritten": "Scan and turn",
+          "note": null
+        },
+        {
+          "drillId": "1v1-on-turn",
+          "asWritten": "1v1 on turn",
+          "note": null
+        },
+        {
+          "drillId": "3v2-with-pass-minimum",
+          "asWritten": "3v2 with pass minimum",
+          "note": null
+        },
+        {
+          "drillId": "team-scrimmage",
+          "asWritten": "Team scrimmage",
+          "note": null
+        }
+      ]
     }
   ],
   "logistics": [],
@@ -61,6 +90,11 @@
       "level": "info",
       "field": "sessions[0].items",
       "message": "Items 2-4 are the last three drills of the Wednesday 2026-10-14 session, in their original order."
+    },
+    {
+      "level": "info",
+      "field": "sessions[1]",
+      "message": "Wednesday 2026-10-28 session added by hand at Jeff's request from his typed notes, not a director email. All four drills are new, with no PDF or diagram. Setup and instructions are Jeff's wording split into entries. Jeff gave no coaching points, and validate.py requires non-empty lists, so each drill's single coachingPoints entry is a restatement of his instructions, not new content. Team scrimmage has only a placeholder setup, instruction and coaching point. Equipment and tags are inferred."
     }
   ]
 }

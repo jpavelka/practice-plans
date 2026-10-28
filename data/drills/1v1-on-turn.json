@@ -1,0 +1,41 @@
+{
+  "id": "1v1-on-turn",
+  "title": "1v1 on turn",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-26"
+  },
+  "diagram": {
+    "path": "data/diagrams/1v1-on-turn.svg",
+    "width": 800,
+    "height": 630,
+    "bytes": 3748,
+    "extractedFrom": "hand-drawn SVG, generated from Jeff's description (not a PDF)"
+  },
+  "setup": "Two goals facing same direction with line of players between them (attack/defense). Another line of players (with balls) 20yd away, facing the goals (passers).",
+  "instructions": [
+    "Attacker starts 5yd ahead of the defender. Checks to the passer to get ball. Turns and tries to score on either goal.",
+    "Defender tries to take ball away and clear it.",
+    "Rotation: Attacker fetches the ball and goes to passing line. Passer goes to attack/defense line. Defender becomes attacker."
+  ],
+  "coachingPoints": [
+    "Check to the passer to get the ball, then turn and try to score on either goal."
+  ],
+  "derived": {
+    "equipment": [
+      "ball",
+      "goals"
+    ],
+    "ageNotes": null,
+    "areaSize": "passers 20yd from the goals",
+    "formation": "1v1",
+    "tags": [
+      "turning",
+      "1v1",
+      "shooting",
+      "defending"
+    ]
+  }
+}

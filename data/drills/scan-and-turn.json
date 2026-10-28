@@ -1,0 +1,42 @@
+{
+  "id": "scan-and-turn",
+  "title": "Scan and turn",
+  "source": {
+    "type": "email",
+    "file": null,
+    "sectionHeading": null,
+    "firstSeenWeek": "2026-10-26"
+  },
+  "diagram": {
+    "path": "data/diagrams/scan-and-turn.svg",
+    "width": 800,
+    "height": 600,
+    "bytes": 3981,
+    "extractedFrom": "hand-drawn SVG, generated from Jeff's description (not a PDF)"
+  },
+  "setup": "One 4yd x 4yd square. Lines for passer (with balls) and receiver on opposite sides of the square.",
+  "instructions": [
+    "Receiver runs into square, then looks over shoulder as soon as they enter.",
+    "Coach points either to a side or straight forward, then puts down arm.",
+    "When coach puts down their arm, the passer passes to the receiver.",
+    "Receiver's action depends on which way coach pointed. If coach pointed forward, the receiver passes back to the original passer. If coach pointed to a side, the receiver turns in that direction."
+  ],
+  "coachingPoints": [
+    "Look over your shoulder as soon as you enter the square."
+  ],
+  "derived": {
+    "equipment": [
+      "ball",
+      "cones"
+    ],
+    "ageNotes": null,
+    "areaSize": "4yd x 4yd",
+    "formation": null,
+    "tags": [
+      "first touch",
+      "scanning",
+      "turning",
+      "passing"
+    ]
+  }
+}
